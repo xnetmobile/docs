@@ -76,7 +76,6 @@ markdown_extensions:
 nav:
   - 'index.md'
   - 'about.md'
-  - 'migration.md'
 
 extra_css:
   - stylesheets/extra.css
