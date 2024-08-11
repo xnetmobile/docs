@@ -1,0 +1,81 @@
+site_name: XNET Docs
+
+theme:
+  logo: https://www.xnet.company/favicon.ico
+  favicon: https://www.xnet.company/favicon.ico
+  name: material
+  palette: 
+    # Palette toggle for light mode
+    - scheme: default
+      primary: black
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to dark mode
+    # Palette toggle for dark mode
+    - scheme: slate
+      primary: black
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to light mode
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.sections
+    - navigation.indexes
+    - toc.follow
+    - toc.integrate
+    - navigation.top
+    - search.highlight
+    - header.autohide
+    - content.code.copy
+    - navigation.footer
+  hide:
+    - toc
+  icon:
+    admonition:
+      info: fontawesome/solid/circle-info
+      note: fontawesome/solid/note-sticky
+      abstract: fontawesome/solid/book
+      tip: fontawesome/solid/bullhorn
+      success: fontawesome/solid/check
+      question: fontawesome/solid/circle-question
+      warning: fontawesome/solid/triangle-exclamation
+      failure: fontawesome/solid/bomb
+      danger: fontawesome/solid/skull
+      bug: fontawesome/solid/robot
+      example: fontawesome/solid/flask
+      quote: fontawesome/solid/quote-left
+
+extra:
+  social:
+  - icon: fontawesome/brands/discord
+    link: https://discord.gg/3W5vTU8aCn
+  - icon: fontawesome/brands/twitter
+    link: https://twitter.com/XNET_mobile
+  - icon: fontawesome/brands/youtube
+    link: https://www.youtube.com/channel/UCyIptNxGEgzXpckV5EL38qQ
+
+copyright: "Copyright © 2024 XNET Inc."
+
+plugins:
+  - search:
+      lang: en
+
+markdown_extensions:
+  - toc:
+      permalink: "#"
+  - admonition
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:pymdownx.emoji.gemoji
+      emoji_generator: !!python/name:pymdownx.emoji.to_png
+  - pymdownx.highlight:
+      use_pygments: true
+  - pymdownx.superfences
+
+nav:
+  - 'index.md'
+  - 'about.md'
+
+extra_css:
+  - stylesheets/extra.css
