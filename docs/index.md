@@ -1,17 +1,5 @@
-# Welcome to MkDocs
+# Welcome to XNET
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
-
-## Commands
-
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
-
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+<a href="/index/header.png" data-fancybox="gallery">
+      <img src="/index/header.png" alt="XNET" width="600px">
+    </a>

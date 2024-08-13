@@ -1,4 +1,4 @@
-site_name: XNET Docs
+site_name: XNET
 
 theme:
   logo: https://www.xnet.company/favicon.ico
@@ -73,10 +73,12 @@ markdown_extensions:
       use_pygments: true
   - pymdownx.superfences
 
-nav:
-  - 'index.md'
-  - 'about.md'
-  - 'migration.md'
+nav: 
+  - Overview: 'overview.md'
+  - Build the Network: 'build.md'
+  - The XNET Token: 'token.md'
+  - Technical Docs:
+    - Solana Migration: 'migration.md'
 
 extra_css:
   - stylesheets/extra.css
