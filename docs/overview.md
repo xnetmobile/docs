@@ -34,7 +34,7 @@ The high barriers to entry from spectrum licensing and infrastructure costs have
 
 ## Decentralized Networks
 
-We believe decentralized wireless networks not only make technological sense, but business sense. XNET's Heterogeneous network approach sdfdfsdf 
+We believe decentralized wireless networks not only make technological sense, but business sense.
 
 - In the 2020's with the advent of CBRS and WiFi 6+, there has never been more freely available spectrum.
 
