@@ -1,5 +1,3 @@
-## XNET Solana Migration - Phase One
-
 Welcome to our XNET Token Bridge Guide! In this document, we'll walk you through the detailed steps for migrating your XNET tokens across different networks, ensuring a smooth transition from Polygon or Ethereum to Solana. Please follow each step carefully and refer to the provided resources to make this process as seamless as possible. LFG!
 
 For the purposes of this document, when we refer to the original Polygon XNET we will refer to it as `(P)XNET`, for ETH wrapped XNET we will use `(EW)XNET`, for Wormhole(Portal Bridge) wrapped XNET will use `(W)XNET`, and for the final migrated token on Solana we will refer to it as just (`XNET`).
@@ -14,7 +12,7 @@ Notes and Important Considerations:
 
 
 !!! tip 
-    * You must use a desktop browser for this process.
+    * You must use a desktop browser for this process paired with [Phantom Wallet](https://phantom.app/). 
     * You must use a browser that does not have any other wallet installed/enabled except MetaMask and Phantom wallets.
     * You may have to disable Phantom wallet extension to connect Metamask to the first part of the bridge then re-enable it when connecting Solana wallet with phantom
     * You will need about $5 USD equivalent of MATIC and $5 USD equivalent of SOL to complete this bridge.
@@ -26,19 +24,21 @@ Notes and Important Considerations:
 If you do not follow these bridge instructions, you’re on your own. We can not, unfortunately, support every combination of app, wallet, chain, etc. Please watch this video and follow along while reading the instructions: XNET Token Bridge How-to
 
 
-## Bridging `$(P)XNET` from Polygon to Solana Using Wormhole
+## Bridging from Polygon to Solana
 
 !!! note
     This documentation assumes you use MetaMask or another Polygon/ERC20 wallet and are bridging XNET tokens to Phantom wallet.
 
 ## Step-by-Step Instructions
 
-### Step 1: Install Phantom Wallet
-1. Download and install the Phantom Wallet extension to your web browser from the official website.
+**Step 1: Install Phantom Wallet**
+
+1. Download and install the [Phantom Wallet](https://phantom.app/) extension to your web browser from the official website.
 
 2. If you have never created a Solana wallet before, follow the instructions from the official Phantom wallet guide to create a new Solana wallet.
 
-### Step 2: Add some SOL to Your Wallet
+**Step 2: Add some SOL to Your Wallet**
+
 1. Ensure you have some Solana (SOL) in your new wallet before continuing.
 
 2. Recommended methods for acquiring SOL:
@@ -47,8 +47,9 @@ If you do not follow these bridge instructions, you’re on your own. We can not
 
 3. You'll need around $5 USD equivalent to SOL to complete the bridge in most cases. 
 
-### Step 3: Access Wormhole Bridge Advanced Transfer Tool
-1. Visit Portal Bridge Advanced Tools using your browser or Phantom’s in wallet’s web3 browser. (You must use the Advance Wormhole bridge to complete the migration)
+**Step 3: Access Wormhole Bridge Advanced Transfer Tool**
+
+1. Visit [Portal Bridge Advanced Tools](https://portalbridge.com/advanced-tools/#/transfer) using your browser or Phantom’s in wallet’s web3 browser. (You must use the Advance Wormhole bridge to complete the migration)
 
 2. Select either Polygon as “Source” -> and Solana as “Target” or Ethereum as “Source  -> and Solana as “Target”, Depending on which chain you currently on XNET tokens on and want to bridge from
 
@@ -59,7 +60,8 @@ If you do not follow these bridge instructions, you’re on your own. We can not
       <img src="/migration/page_3_img_2.png" alt="Relevant Image" width="500px">
     </a>
 
-### Step 4: Select Correct Token
+**Step 4: Select Correct Token**
+
 1. Under "Select a Token," paste the following based on which XNET token chain you are migrating from.
 
     For Polygon use `$(P)XNET` contract address: `0xbc5eb84c052fd012bb902c258c9fd241b17c0005`
@@ -79,7 +81,8 @@ If you do not follow these bridge instructions, you’re on your own. We can not
 
 
 
-### Step 5: Connect Your Solana Wallet
+**Step 5: Connect Your Solana Wallet**
+
 1. Click "Connect" and choose Phantom from the dropdown list.
 
     <a href="/migration/page_4_img_2.jpeg" data-fancybox="gallery">
@@ -112,7 +115,7 @@ If you do not follow these bridge instructions, you’re on your own. We can not
     </a>
 
 
-### Step 6: Send Tokens
+**Step 6: Send Tokens**
 
 1. Click "Transfer" and confirm the transactions after verifying the amounts.
 
@@ -138,7 +141,7 @@ If you do not follow these bridge instructions, you’re on your own. We can not
   </a>
 
 
-### Step 7: Redeem Tokens
+**Step 7: Redeem Tokens**
 
 1. Click the "Redeem" option to finalize the transfer. You will see 4-5 confirmations from the Solana wallet to complete the transfer.
 
@@ -152,7 +155,7 @@ If you do not follow these bridge instructions, you’re on your own. We can not
     </a>
 
 
-### Step 8: Bridge Complete!
+**Step 8: Bridge Complete!**
 
 1. Congratulations, you have successfully bridged  `$(P)XNET` from Polygon to Solana `$(W)XNET` using Wormhole Bridge! You should see this XNET token in your wallet now.
 
