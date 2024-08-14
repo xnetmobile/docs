@@ -77,8 +77,13 @@ nav:
   - Overview: 'overview.md'
   - Build the Network: 'build.md'
   - The XNET Token: 'token.md'
+  - Charter: 'charter.md'
   - Technical Docs:
     - Solana Migration: 'migration.md'
+    - Carrier WiFi Offload: 'offload.md'
+    - WiFi Reactivation: 'reactivation.md'
+    - Datasheets: 'datasheet.md'
+  - Document Archive: 'archive.md'
 
 extra_css:
   - stylesheets/extra.css

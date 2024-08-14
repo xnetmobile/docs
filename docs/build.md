@@ -5,6 +5,9 @@ XNET nodes can be deployed by whoever has the means and access to good locations
 
 The choice of which to deploy depends on your location and proximity to high traffic areas. 
 
+!!! info
+    **XNET Hardware**: Visit [Datasheets](/datasheet/) or [shop.xnet.company](https://shop.xnet.company) to learn about supported hardware.
+
 ## CBRS
 
 CBRS, through its use of dedicated wireless spectrum assignments, higher transmit power and LTE/5G network protcol offer can reach greater distances and to carry high value services like phone number support, Voice and e-911, all which XNET can support with its 3GPP certified core. 
@@ -38,7 +41,9 @@ XNET uses WiFi Passpoint, also known as Hotspot 2.0, to ensure that mobile devic
   
 
 
-## WiFi Node Deployment Tips
+## Deployment Tips
+
+### WiFi
 
 Not all locations are created equal, especially when it comes to maximizing XNET WiFi earnings. 
 
@@ -62,7 +67,7 @@ Not all locations are created equal, especially when it comes to maximizing XNET
 - Private Offices.
 - Areas with Low Pedestrian Traffic.
 
-## CBRS Node Deployment Tips
+### CBRS
 
 XNET CBRS nodes can only earn `$XNET` tokens if deployed in certain regions called clusters, designated by colored hexes. 
 
