@@ -74,16 +74,19 @@ markdown_extensions:
   - pymdownx.superfences
 
 nav: 
-  - Overview: 'overview.md'
-  - Build the Network: 'build.md'
-  - The XNET Token: 'token.md'
-  - Charter: 'charter.md'
+  - Overview:
+    - XNET Vision: 'overview.md'
+    - Build the Network: 'build.md'
+    - The XNET Token: 'token.md'
+    - Charter: 'charter.md'
+  - Migration:
+    - Solana Migration, Part 1: 'migration.md'
+    - Solana Migration, Part 2: 'migration_part_2.md'
   - Technical Docs:
-    - Solana Migration: 'migration.md'
     - Carrier WiFi Offload: 'offload.md'
     - WiFi Reactivation: 'reactivation.md'
     - Datasheets: 'datasheet.md'
-  - Document Archive: 'archive.md'
+    - Archive: 'archive.md'
 
 extra_css:
   - stylesheets/extra.css

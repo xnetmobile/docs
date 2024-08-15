@@ -1,4 +1,9 @@
+# XNET Solana Migration, Part 1
+
 Welcome to our XNET Token Bridge Guide! In this document, we'll walk you through the detailed steps for migrating your XNET tokens across different networks, ensuring a smooth transition from Polygon or Ethereum to Solana. Please follow each step carefully and refer to the provided resources to make this process as seamless as possible. LFG!
+
+!!! note 
+    Already bridged your tokens via Wormhole and want to claim the official XNET Solana token? See [Solana Migration, Part 2](/migration_part_2/).
 
 For the purposes of this document, when we refer to the original Polygon XNET we will refer to it as `(P)XNET`, for ETH wrapped XNET we will use `(EW)XNET`, for Wormhole(Portal Bridge) wrapped XNET will use `(W)XNET`, and for the final migrated token on Solana we will refer to it as just (`XNET`).
 
@@ -51,9 +56,9 @@ If you do not follow these bridge instructions, you’re on your own. We can not
 
 1. Visit [Portal Bridge Advanced Tools](https://portalbridge.com/advanced-tools/#/transfer) using your browser or Phantom’s in wallet’s web3 browser. (You must use the Advance Wormhole bridge to complete the migration)
 
-2. Select either Polygon as “Source” -> and Solana as “Target” or Ethereum as “Source  -> and Solana as “Target”, Depending on which chain you currently on XNET tokens on and want to bridge from
+2. Select either Polygon as “Source” -> and Solana as “Target” or Ethereum as “Source  -> and Solana as “Target”, Depending on which your desired source and destination chain. 
 
-3. Now click "*Connect Wallet*," choose Metamask, and confirm. (You may have to disable Phantom wallet extension to connect Metamask to the this part of the bridge then re-enable it when connecting Solana wallet part of the bridge, This happen when Phantom wallet try to take priority over metamask as to which wallet to connect first)
+3. Now click "*Connect Wallet*," choose Metamask, and confirm. (You may have to disable Phantom wallet extension to connect Metamask to the this part of the bridge then re-enable it when connecting Solana wallet part of the bridge, This happen when Phantom wallet try to take priority over metamask as to which wallet to connect first).
 
 
     <a href="/migration/page_3_img_2.png" data-fancybox="gallery">
@@ -107,7 +112,7 @@ If you do not follow these bridge instructions, you’re on your own. We can not
 
 3. Once the created associated token account is created select “next”.
 
-4. Next confirm the token amount you want to move by selecting “Approve”, A Metamask popup will generate a popup for you to approve the amount to be transferred via you wallet and the token bridge contract. Confirm and approve the transaction then hit next in the popup window.
+4. Next confirm the token amount you want to move by selecting “Approve”, A Metamask popup will generate a popup for you to approve the amount to be transferred via you wallet and the token bridge contract. Confirm and approve the transaction, then hit 'Next' in the popup window.
 
 
     <a href="/migration/page_5_img_4.jpeg" data-fancybox="gallery">
@@ -163,3 +168,4 @@ If you do not follow these bridge instructions, you’re on your own. We can not
     <a href="/migration/page_8_img_3.jpeg" data-fancybox="gallery">
       <img src="/migration/page_8_img_3.jpeg" alt="Relevant Image" width="500px">
     </a>
+

@@ -1,6 +1,6 @@
 # Document Archive
 
-Legacy XNET PDF documents can be found here. The source of truth is the newly consolidated Mkdocs repository at [docs.xnet.company](http://docs.xnet.company).
+Legacy XNET PDF documents can be found here. Refer to documents at [docs.xnet.company](http://docs.xnet.company) for the most up-to-date information. 
 
 
 ## General
