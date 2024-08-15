@@ -3,7 +3,9 @@
 <h2 style="text-align: center;">
   <a href="/overview/">Overview</a> &middot; 
   <a href="/build/">Build</a> &middot; 
-  <a href="/token/">Token</a>
+  <a href="/token/">Token</a> &middot; 
+  <a href="/migration_part_2/">Solana Migration</a>
+  
 </h2>
 
 <div style="text-align: center;">

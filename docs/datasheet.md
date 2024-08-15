@@ -1,6 +1,9 @@
 # XNET Hardware Datasheets
 
-See below for datasheets for all CBRS and WiFi radios supported by the XNET network. 
+!!! info
+    **XNET Hardware**: Visit the [XNET Shop](https://shop.xnet.company) to shop and learn more about supported hardware.
+
+Below are manufacturing datasheets for supported hardware. 
 
 | Device |
 |-----------------|
