@@ -12,7 +12,7 @@ Over time we will:
 
 ## Connectivity
 
-XNET is dedicated to solving the connectivity issues faced by global carriers and the underserved. We are committed to providing unparalleled coverage and reliability, ensuring that our network delivers affordable and fast connectivity solutions.
+XNET is a dedicated to solving the connectivity issues faced by global carriers and the underserved. We are committed to providing unparalleled coverage and reliability, ensuring that our network delivers affordable and fast connectivity solutions.
 
 XNET will not deviate from:
 
