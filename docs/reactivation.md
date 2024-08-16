@@ -1,7 +1,7 @@
 # Reactivation Walkthrough Guide
 
 Welcome to the XNET Reactivation Walkthrough Guide! In this guide, we'll walk you through the
-process of creating your new XNET login account and reactivating your XNET WiFi access
+process of creating your new XNET login account and reactivating your XNET Wi-Fi access
 points. Please follow each step carefully to ensure a smooth reactivation experience.
 
 Let's get started!

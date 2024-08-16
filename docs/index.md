@@ -4,8 +4,8 @@
   <a href="/overview/">Overview</a> &middot; 
   <a href="/build/">Build</a> &middot; 
   <a href="/token/">Token</a> &middot; 
-  <a href="/migration_part_2/">Solana Migration</a>
-  
+  <a href="/migration_part_2/">Solana</a> &middot; 
+  <a href="https://xnet.company">Home</a>
 </h2>
 
 <div style="text-align: center;">
