@@ -26,12 +26,16 @@ Node operators, whether they be businesses or individuals, are who earn the `$XN
 <a href="/token/buyburn_2.png" data-fancybox="gallery">
       <img src="/token/buyburn_2.png" alt="Buy & Burn" width="600px">
     </a>
+    <br />
+  <span style="font-size: smaller; color: gray;">The core economic function of the XNET Network.</span>
 </p>
 
 <p style="text-align: center;">
 <a href="/token/economy_2.png" data-fancybox="gallery">
       <img src="/token/economy_2.png" alt="the XNET Economy" width="600px">
     </a>
+    <br />
+  <span style="font-size: smaller; color: gray;">Top: Traffic flows from XNET node to end user, with $XNET reward flowing from treasury to end user. Bottom: Several inputs go into determining $XNET rewards.</span>
 </p>
 
 ## Earning `$XNET`
@@ -45,6 +49,7 @@ Token distribution operates on the *XNET Epoch Schedule*. An Epoch is two weeks 
 <a href="/token/08_2024_wifi.png" data-fancybox="gallery">
       <img src="/token/08_2024_wifi.png" alt="Wi-Fi Earnings" width="600px">
     </a>
+    
 </p>
 
 <p style="text-align: center;">
