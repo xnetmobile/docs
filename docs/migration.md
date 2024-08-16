@@ -47,8 +47,8 @@ If you do not follow these bridge instructions, you’re on your own. We can not
 1. Ensure you have some Solana (SOL) in your new wallet before continuing.
 
 2. Recommended methods for acquiring SOL:
- --- Coinbase
- --- KuCoin
+ - Coinbase
+ - KuCoin
 
 3. You'll need around $5 USD equivalent to SOL to complete the bridge in most cases. 
 

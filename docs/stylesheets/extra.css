@@ -1,3 +1,48 @@
 .md-typeset .admonition, .md-typeset details {
     font-size: 100%;
 }
+
+/* Target the label element with the class md-nav__link and the specific id __nav_1_label */
+#__nav_1_label.md-nav__link {
+    font-weight: bold;  /* Adjust the boldness (e.g., normal, bold, 700, etc.) */
+    font-size: 1.2em;   /* Adjust the font size (e.g., 1em, 1.2em, 16px, etc.) */
+}
+
+#__nav_2_label.md-nav__link {
+    font-weight: bold;  /* Adjust the boldness (e.g., normal, bold, 700, etc.) */
+    font-size: 1.2em;   /* Adjust the font size (e.g., 1em, 1.2em, 16px, etc.) */
+}
+
+#__nav_3_label.md-nav__link {
+    font-weight: bold;  /* Adjust the boldness (e.g., normal, bold, 700, etc.) */
+    font-size: 1.2em;   /* Adjust the font size (e.g., 1em, 1.2em, 16px, etc.) */
+}
+
+#__nav_4_label.md-nav__link {
+    font-weight: bold;  /* Adjust the boldness (e.g., normal, bold, 700, etc.) */
+    font-size: 1.2em;   /* Adjust the font size (e.g., 1em, 1.2em, 16px, etc.) */
+}
+
+.md-nav {
+    padding-left: 7px; /* Adds 10 pixels of inward spacing */
+}
+
+
+/* THIS IS THE SPECIAL XNET HOME LINK FORMATTING */
+.xnet-home-link {
+    font-size: 18px;   /* Adjust the font size */
+    color: #007BFF;    /* Change the text color */
+    font-weight: bold; /* Make it bold */
+}
+
+/* Optional: Apply styles to the link itself */
+.xnet-home-link a {
+    text-decoration: none; /* Remove underline */
+    padding: 5px 10px;      /* Add padding */
+}
+
+/* Optional: Apply hover effect */
+.xnet-home-link a:hover {
+    text-decoration: underline; /* Add underline on hover */
+    color: #0056b3;             /* Change color on hover */
+}

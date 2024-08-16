@@ -1,8 +1,11 @@
-site_name: XNET
+site_name: XNET Docs
+site_url: https://xnet.company
+
 
 theme:
-  logo: https://www.xnet.company/favicon.ico
-  favicon: https://www.xnet.company/favicon.ico
+  logo: /stylesheets/logo.webp
+  #logo: https://www.xnet.company/favicon.ico
+  favicon: /stylesheets/logo.webp
   name: material
   palette: 
     # Palette toggle for light mode
@@ -45,6 +48,7 @@ theme:
       bug: fontawesome/solid/robot
       example: fontawesome/solid/flask
       quote: fontawesome/solid/quote-left
+  
 
 extra:
   social:
@@ -54,6 +58,10 @@ extra:
     link: https://twitter.com/XNET_mobile
   - icon: fontawesome/brands/youtube
     link: https://www.youtube.com/channel/UCyIptNxGEgzXpckV5EL38qQ
+  nav:
+    - "Custom Link 1": https://example.com
+    - "Custom Link 2": https://anotherexample.com
+    - "GitHub": https://github.com/your-repo
 
 copyright: "Copyright © 2024 XNET Inc."
 
@@ -77,8 +85,9 @@ nav:
   - Overview:
     - XNET Vision: 'overview.md'
     - Build the Network: 'build.md'
-    - The XNET Token: 'token.md'
     - Charter: 'charter.md'
+  - Token: 
+    - The XNET Token: 'token.md'
   - Migration:
     - Solana Migration, Part 1: 'migration.md'
     - Solana Migration, Part 2: 'migration_part_2.md'
@@ -87,6 +96,8 @@ nav:
     - WiFi Reactivation: 'reactivation.md'
     - Datasheets: 'datasheet.md'
     - Archive: 'archive.md'
+  - '<span class="xnet-home-link">XNET Home</span>': https://xnet.company
+
 
 extra_css:
   - stylesheets/extra.css

@@ -54,7 +54,3 @@ Token distribution operates on the *XNET Epoch Schedule*. An Epoch is two weeks 
 - **Investor Pool:** 360,000,000 billion tokens (15%) - Used to gain access to investment in the network from Equity and (private) ICO investors. These tokens will be subject to a lockup period of 36-48 months.
 - **Insider Pool:** 360,000,000 tokens (15%) - Used to reward founders, employees and advisors over time. These will be subject to vesting schedules over 36-48 months. 
 
-!!! Warning
-    Don't be fooled! Confirm you are using the official Solana `$XNET` token address for all transactions. 
-
-    `Address = xNETbUB7cRb3AAu2pNG2pUwQcJ2BHcktfvSB8x1Pq6L`
