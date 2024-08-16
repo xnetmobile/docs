@@ -35,7 +35,7 @@ Node operators, whether they be businesses or individuals, are who earn the `$XN
       <img src="/token/economy_2.png" alt="the XNET Economy" width="600px">
     </a>
     <br />
-  <span style="font-size: smaller; color: gray;">Top: Traffic flows from XNET node to end user, with $XNET reward flowing from treasury to end user. Bottom: Several inputs go into determining $XNET rewards.</span>
+  <span style="font-size: smaller; color: gray;">Top: Traffic flows from XNET node to end user, with $XNET reward flowing from treasury to node owner. Bottom: Several inputs go into determining $XNET rewards.</span>
 </p>
 
 ## Earning `$XNET`
