@@ -1,7 +1,6 @@
 site_name: XNET Docs
 site_url: https://xnet.company
 
-
 theme:
   logo: /stylesheets/logo.webp
   #logo: https://www.xnet.company/favicon.ico
@@ -48,16 +47,16 @@ theme:
       bug: fontawesome/solid/robot
       example: fontawesome/solid/flask
       quote: fontawesome/solid/quote-left
-  
 
 extra:
+  homepage: https://www.xnet.company/
   social:
-  - icon: fontawesome/brands/discord
-    link: https://discord.gg/xnetmobile
-  - icon: fontawesome/brands/twitter
-    link: https://twitter.com/XNET_mobile
-  - icon: fontawesome/brands/youtube
-    link: https://www.youtube.com/channel/UCyIptNxGEgzXpckV5EL38qQ
+    - icon: fontawesome/brands/discord
+      link: https://discord.gg/xnetmobile
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/XNET_mobile
+    - icon: fontawesome/brands/youtube
+      link: https://www.youtube.com/channel/UCyIptNxGEgzXpckV5EL38qQ
   nav:
     - "Custom Link 1": https://example.com
     - "Custom Link 2": https://anotherexample.com
@@ -101,7 +100,6 @@ nav:
     - Archive: 'archive.md'
   - '<span class="xnet-home-link">XNET Home</span>': https://xnet.company
 
-
 extra_css:
   - stylesheets/extra.css
   - https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css
@@ -109,4 +107,3 @@ extra_css:
 extra_javascript:
   - https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js
   - https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js
-
