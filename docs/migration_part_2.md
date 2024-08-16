@@ -7,8 +7,8 @@ In this document, we'll walk you through the detailed steps to convert your Sola
 
 !!! Warning
     Don't be fooled! Confirm you are using the official Solana `$XNET` token address for all transactions. 
-
-    `Address = xNETbUB7cRb3AAu2pNG2pUwQcJ2BHcktfvSB8x1Pq6L`
+      
+      Address = ==xNETbUB7cRb3AAu2pNG2pUwQcJ2BHcktfvSB8x1Pq6L==
 
 **Converting from Solana Wormhole Wrapped `$(W)XNET` to New `$XNET` Token on Solana**
 
@@ -30,21 +30,21 @@ The process flow is `$(W)XNET -> $XNET`.
 ### Instructions
 
 !!! note 
-    The official migration tool is the [XNET Token Upgrade UI](https://tokenconvert.xnet.foundation/) hosted by the XNET foundation. 
+    The official migration tool is the [XNET Token Conversion Tool](https://tokenconvert.xnet.foundation/) hosted by the XNET foundation. 
 
 **Step 1: Access the Token Upgrade Interface**
 
-1. Navigate to the [XNET Token Upgrade UI](https://tokenconvert.xnet.foundation/) using your preferred browser method that integrates with your desktop browser wallet.
+1. Navigate to the [XNET Token Conversion Tool](https://tokenconvert.xnet.foundation/) using your preferred browser method that integrates with your desktop browser wallet.
 
    <a href="/migration/upgrade.png" data-fancybox="gallery">
       <img src="/migration/upgrade.png" alt="Upgrade UI" width="400px">
    </a>
 
-2. You may see a warning banner. Choose the **"Proceed Anyway"** option; you may have to do this a few times. (Note: We are working on getting it whitelisted).
+<!-- 2. You may see a warning banner. Choose the **"Proceed Anyway"** option; you may have to do this a few times. (Note: We are working on getting it whitelisted).
 
    <a href="/migration/block.png" data-fancybox="gallery">
       <img src="/migration/block.png" alt="Whitelist" width="250px">
-   </a>
+   </a> -->
 
 **Step 2: Connect Your Phantom Wallet**
 
@@ -54,17 +54,23 @@ The process flow is `$(W)XNET -> $XNET`.
 
 **Step 3: Select the Amount to Convert**
 
-1. Choose the amount of Solana Wormhole Wrapped (W)XNET tokens you wish to convert to the new XNET tokens.
+1. Choose the amount of Solana Wormhole Wrapped `(W)XNET` tokens you wish to convert to the new XNET tokens.
 2. If you want to convert all available tokens, select the "Max" option.
 
 **Step 4: Approve the Conversion**
 
 1. Review the details of the conversion.
+
+<a href="/migration/confirm.jpg" data-fancybox="gallery">
+      <img src="/migration/confirm.jpg" alt="Confirmation" width="250px">
+   </a>
+
 2. Confirm and approve the transaction in your Phantom wallet.
 
 **Step 5: Wait for Confirmation**
 
 1. The conversion process might take a few minutes. Ensure your device remains connected and the browser remains open.
+
 2. You will receive a notification once the transaction is complete.
 
 **Step 6: Verify Your New XNET Tokens**
@@ -74,9 +80,9 @@ The process flow is `$(W)XNET -> $XNET`.
 
 **Step 7: Conversion Complete!**
 
-1. Congratulations, you have successfully converted your Solana Wormhole Wrapped (W)XNET tokens to the new XNET tokens!
+1. Congratulations, you have successfully converted your Solana Wormhole Wrapped `(W)XNET` tokens to the new Solana `$XNET` tokens!
 
 !!! Warning
     Don't be fooled! Confirm you are using the official Solana `$XNET` token address for all transactions. 
-
-    `Address = xNETbUB7cRb3AAu2pNG2pUwQcJ2BHcktfvSB8x1Pq6L`
+      
+      Address = ==xNETbUB7cRb3AAu2pNG2pUwQcJ2BHcktfvSB8x1Pq6L==
