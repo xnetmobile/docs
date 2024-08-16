@@ -4,10 +4,10 @@
 
 As of August 2024, XNET has successfully transitioned to the Solana network. The `$XNET` Token is a Solana SPL Token with a max supply of 2,400,000,000 (two billion, four hundred million) deflationary XNET tokens (`$XNET`). These tokens will be issued gradually over time and be allocated according to the breakdown below.
 
-!!! warning
+!!! Warning
     Don't be fooled! Confirm you are using the official Solana `$XNET` token address for all transactions. 
-    
-    `Address = xNETbUB7cRb3AAu2pNG2pUwQcJ2BHcktfvSB8x1Pq6L`
+      
+      Address = ==xNETbUB7cRb3AAu2pNG2pUwQcJ2BHcktfvSB8x1Pq6L==
 
 
 ## `$XNET` Economics
@@ -22,13 +22,17 @@ Node operators, whether they be businesses or individuals, are who earn the `$XN
 !!! Note
     Mobile Network Operators strictly settle in cash, and the XNET Foundation is what bridges the gap between the `$XNET` Token and the world of Fiat dollars. The majority of every dollar of offload revenue will be used by the XNET foundation to buy XNET on the open market then burn, thereby permanently removing the tokens from circulation.
 
-<a href="/token/buyburn.png" data-fancybox="gallery">
-      <img src="/token/buyburn.png" alt="Buy & Burn" width="400px">
+<p style="text-align: center;">
+<a href="/token/buyburn_2.png" data-fancybox="gallery">
+      <img src="/token/buyburn_2.png" alt="Buy & Burn" width="600px">
     </a>
+</p>
 
-<a href="/token/economy.png" data-fancybox="gallery">
-      <img src="/token/economy.png" alt="the XNET Economy" width="400px">
+<p style="text-align: center;">
+<a href="/token/economy_2.png" data-fancybox="gallery">
+      <img src="/token/economy_2.png" alt="the XNET Economy" width="600px">
     </a>
+</p>
 
 ## Earning `$XNET`
 
@@ -37,13 +41,17 @@ Token distribution operates on the *XNET Epoch Schedule*. An Epoch is two weeks 
 !!! TIP
     Token rewards will change over time as the network grows and new hardware becomes available. Stay on top of the latest earning rates in the tables below. 
 
+<p style="text-align: center;">
 <a href="/token/08_2024_wifi.png" data-fancybox="gallery">
       <img src="/token/08_2024_wifi.png" alt="Wi-Fi Earnings" width="600px">
     </a>
+</p>
 
+<p style="text-align: center;">
 <a href="/token/08_2024_cbrs.png" data-fancybox="gallery">
       <img src="/token/08_2024_cbrs.png" alt="CBRS Earnings" width="600px">
     </a>
+</p>
 
 
 ## Distribution
@@ -54,3 +62,8 @@ Token distribution operates on the *XNET Epoch Schedule*. An Epoch is two weeks 
 - **Investor Pool:** 360,000,000 billion tokens (15%) - Used to gain access to investment in the network from Equity and (private) ICO investors. These tokens will be subject to a lockup period of 36-48 months.
 - **Insider Pool:** 360,000,000 tokens (15%) - Used to reward founders, employees and advisors over time. These will be subject to vesting schedules over 36-48 months. 
 
+<p style="text-align: center;">
+<a href="/token/allocation.png" data-fancybox="gallery">
+      <img src="/token/allocation.png" alt="XNET Token Allocation" width="600px">
+    </a>
+</p>

@@ -3,7 +3,7 @@
 Welcome to our XNET Token Bridge Guide! In this document, we'll walk you through the detailed steps for migrating your XNET tokens across different networks, ensuring a smooth transition from Polygon or Ethereum to Solana. Please follow each step carefully and refer to the provided resources to make this process as seamless as possible. LFG!
 
 !!! note 
-    Already bridged your tokens via Wormhole and want to claim the official XNET Solana token? See [Solana Migration, Part 2](/migration_part_2/).
+    If you already bridged your tokens via Wormhole and want to claim the official `$XNET` Solana token, See [Solana Migration, Part 2](/migration_part_2/).
 
 For the purposes of this document, when we refer to the original Polygon XNET we will refer to it as `(P)XNET`, for ETH wrapped XNET we will use `(EW)XNET`, for Wormhole(Portal Bridge) wrapped XNET will use `(W)XNET`, and for the final migrated token on Solana we will refer to it as just (`XNET`).
 

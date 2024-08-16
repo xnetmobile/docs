@@ -15,13 +15,13 @@ CBRS, through its use of dedicated wireless spectrum assignments, higher transmi
 !!! info 
     XNET CBRS nodes must coordinate with a managed Spectrum Access System in order to operate. CBRS nodes must register with XNET to provide information like location, height and orientation. 
 
-<!-- <p style="text-align: center;">
+<p style="text-align: center;">
   <a href="/overview/park.png" data-fancybox="gallery">
     <img src="/overview/park.png" alt="Park" style="width: 500px;" />
   </a>
   <br />
   <span style="font-size: smaller; color: gray;">A well placed rooftop CBRS node can cover a busy urban park.</span>
-</p> -->
+</p>
 
 
 ## Wi-Fi 
@@ -31,13 +31,13 @@ XNET uses Wi-Fi Passpoint, also known as Hotspot 2.0, to ensure that mobile devi
 !!! info 
     XNET Carrier Offload refers to the use of Wi-Fi networks to handle data traffic that would otherwise burden cellular networks. This technology is crucial for carriers in densely populated areas where mobile data traffic often exceeds network capacity.
 
-<!-- <p style="text-align: center;">
+<p style="text-align: center;">
   <a href="/overview/cafe.png" data-fancybox="gallery">
     <img src="/overview/cafe.png" alt="Park" style="width: 500px;" />
   </a>
   <br />
   <span style="font-size: smaller; color: gray;">An intimate cafe is a good place for XNET Wi-Fi.</span>
-</p> -->
+</p>
   
 
 
