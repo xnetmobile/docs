@@ -18,7 +18,6 @@ Legacy XNET PDF documents can be found here. Refer to documents at [docs.xnet.co
 
 | Document | Date |
 |-----------------|-----------------|
-| [Metamask Setup Guide](https://xnet.company/files/installation/MetaMask_Setup_Guide.pdf) | 08/2022 |
 | [WiFi Activation](https://xnet.company/files/installation/Xnet_Activation.pdf) | 04/2023 |
 | [XP6 Pro Installation](https://xnet.company/files/installation/XP6PRO_Installation_Guide.pdf) | 04/2024 |
 | [CPI Requirements](https://xnet.company/files/installation/XNET_Installation_Requirements.pdf) | 08/2022 |
