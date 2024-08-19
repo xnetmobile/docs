@@ -6,7 +6,7 @@ XNET nodes can be deployed by whoever has the means and access to good locations
 The choice of which to deploy depends on your location and proximity to high traffic areas. 
 
 !!! info
-    **XNET Hardware**: Visit [Datasheets](/datasheet/) or the [XNET Shop](https://shop.xnet.company) to learn about supported hardware.
+    **XNET Hardware**: Visit [Datasheets](/datasheet/) or the [XNET Shop](https://shop.xnet.company) to learn about supported hardware!
 
 ## CBRS
 
