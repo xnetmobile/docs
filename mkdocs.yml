@@ -90,6 +90,7 @@ nav:
     - Charter: 'charter.md'
   - Token: 
     - The XNET Token: 'token.md'
+    - Claiming Rewards: 'distribution.md'
   - Migration:
     - Solana Migration, Part 1: 'migration.md'
     - Solana Migration, Part 2: 'migration_part_2.md'
