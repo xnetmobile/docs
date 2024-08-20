@@ -20,7 +20,7 @@ A crypto-powered wireless network is not new - and we see much to improve upon. 
 
 ## Mobile Networks Today
 
-Over the last three decades, the mobile connectivity market in the United States has undergone a substantial consolidation and is now dominated by a small number of large Mobile Network Operators: AT&T, Verizon, and T-Mobile. The story has unfolded much the same way outside the United States. Centralization provides conceptual simplicity but also fragility, and makes scaling such networks a costly challenge for providers.
+Over the last three decades, the mobile connectivity market in the United States has undergone a substantial consolidation and is now dominated by a small number of large Mobile Network Operators. The story has unfolded much the same way outside the United States. Centralization provides conceptual simplicity but also fragility, and makes scaling such networks a costly challenge for providers.
 
 - Nations extract hundreds of billions in taxes from network operators in the form of spectrum licenses. 
 
