@@ -55,6 +55,41 @@ Conversely, some locations may not be ideal for XNET installations due to low tr
 | **Forests and Conservation Parks**| Protected areas where modern infrastructure is often restricted to preserve natural conditions.      | < 1,000                            | 60 - 120 minutes                |
 ______
 
+## How to Find High-Traffic Locations in Small Towns
+
+### Starting Small: Focus on Independently Owned Venues
+
+When you're just getting started with XNET WiFi installations, it's often best to target **high-traffic locations in small towns** that are independently owned. These types of venues are typically more accessible, require fewer bureaucratic hurdles, and can offer a solid return on investment. However, these are just suggestions and not requirements—if you feel you have a good lead or hook on any location that has decent foot traffic and dwell time, go for it! It’s a numbers game; the more access points (APs) you install, the better you’ll do. Here’s how to find these kinds of locations:
+
+1. **Walk Around the Town:**
+   - One of the simplest ways to identify potential locations is by exploring the town yourself. Look for bustling cafes, busy parks, and local shops that consistently draw a crowd. Pay attention to venues with a steady stream of customers, especially during peak hours.
+
+2. **Local Business Directories and Maps:**
+   - Use **Google Maps** or **Yelp** to find highly-rated businesses in small towns. These platforms often highlight popular local spots, complete with customer reviews and peak visiting times. Focus on venues like cafes, restaurants, and parks that show consistent customer engagement.
+
+3. **Community Events and Markets:**
+   - Small towns often host regular events such as farmers' markets, fairs, and community festivals. These events attract large crowds and can be an excellent opportunity for short-term or permanent WiFi installations. Check the town’s event calendar or local news outlets for information on these events.
+
+4. **Chamber of Commerce and Local Business Associations:**
+   - Reach out to the local **Chamber of Commerce** or business associations. They can provide valuable insights into which businesses are thriving and may benefit from enhanced WiFi services. Additionally, they can help you connect with business owners who may be open to partnership opportunities.
+
+5. **Networking with Local Entrepreneurs:**
+   - Attend local networking events, business mixers, and community meetings. Building relationships with local business owners can open doors to deployment opportunities. Independently owned venues often appreciate the personal touch, and a strong local network can lead to fruitful collaborations.
+
+6. **Use Location Analytics Tools:**
+   - For a more data-driven approach, tools like **[Placer.ai](https://www.placer.ai/)** and **[SafeGraph](https://www.safegraph.com/)** offer insights into foot traffic patterns in small towns. These tools can help you identify hidden gems that might not be immediately obvious from casual observation.
+
+### Note: The Challenges of Large Venues
+
+While targeting small-town, independently owned venues is a great way to start, it’s important to be aware of the challenges that come with larger venues like **stadiums, airports, and major event centers**. These locations often require:
+
+- **Business Licenses:** Many large venues require vendors to have specific business licenses to operate within their premises.
+- **Insurance Requirements:** You’ll likely need comprehensive insurance coverage, including liability insurance, which can be costly and complex to arrange.
+- **Experience and Expertise:** Deploying WiFi in large, high-traffic venues demands a high level of technical expertise and experience. These projects can be logistically challenging, often involving intricate planning and coordination with multiple stakeholders.
+
+For these reasons, it’s advisable to gain experience and build a solid portfolio in smaller venues before attempting to crack into larger, more complex locations. But remember, every opportunity counts—if you have a promising lead, don’t hesitate to pursue it!
+______
+
 ## How to Guesstimate Foot Traffic and Dwell Time?
 
 Accurately estimating **foot traffic** and **dwell time** without visiting a location can be challenging, but several strategies can help you make educated guesses.
