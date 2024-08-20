@@ -51,6 +51,29 @@ Proper planning includes ensuring you have all the necessary tools and materials
 
 Choosing the right installation location is critical. For **indoor installations**, aim to place APs in central locations with minimal obstructions. For **outdoor installations**, make sure the APs are elevated between **15-30 feet**, ensuring they are neither too high nor too low. Identify and secure the source of the internet connection beforehand, making sure it meets the bandwidth requirements for XNET.
 
+### Refer to Manufacturer Installation Documentation
+
+Before installing any **XNET WiFi devices**, it's essential to review the installation documentation provided by the manufacturer for each specific access point (AP). These guides offer critical information on proper setup, mounting, and configuration, ensuring that your installation is both efficient and compliant with the device's requirements. Below are links to the official installation guides for each AP model commonly used in XNET deployments:
+
+- **XR560**:
+  - [XR560 AP Quick Setup Guide](https://support.ruckuswireless.com/documents/4273-ruckus-r560-ap-quick-setup-guide/download)
+  - [T-Bar Bracket Quick Setup Guide](https://support.ruckuswireless.com/documents/4807-ruckus-t-bar-bracket-quick-setup-guide/download)
+  - [Stadium Enclosure Quick Setup Guide](https://support.ruckuswireless.com/documents/4400-stadium-enclosure-quick-setup-guide/download)
+  
+- **T350**:
+  - [T350C AP Quick Setup Guide](https://support.ruckuswireless.com/documents/3721-ruckus-t350c-ap-quick-setup-guide-qsg/download)
+  
+- **XV2-2T0**:
+  - [Enterprise Wi-Fi 6 Access Point Hardware and Installation Guide](https://www.cambiumnetworks.com/resource/enterprise-wi-fi-6-access-point_hardware-and-installation-guide-6-5-3/)
+  
+- **XP6 Pro**:
+  - [AP6-Pro Quick Setup Guide](https://media.alta.inc/qsg/AP6-Pro_QSG.pdf)
+  
+- **XPX6**:
+  - [AP6-Pro Outdoor Quick Start Guide](https://media.alta.inc/qsg/ap6-pro-outdoor/ap6-pro-outdoor-quick-start-guide.pdf)
+
+By consulting these documents, you'll ensure that each AP is installed correctly, maximizing performance and longevity while minimizing potential issues during and after installation. These guides also provide manufacturer-specific tips that can save time and reduce errors in your deployment process.
+
 ______
 
 ## Installation Best Practices
