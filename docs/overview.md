@@ -1,6 +1,6 @@
 # Overview
 
-Demand for fast and reliable mobile connectivity continues to grow at a rapid pace and traditional Mobile Network Operators (MNO) like Verizon, AT&T, and T-Mobile are struggling to keep up with this demand. MNOs are desperately looking for zero-CapEx access to alternative coverage through Carrier Grade Wi-Fi or LTE/5G interconnects. 
+Demand for fast and reliable mobile connectivity continues to grow at a rapid pace and traditional Mobile Network Operators (MNOs) and Mobile Virtual Network Operators (MNVOs) are struggling to keep up with this demand. MNOs and MNVOs are desperately looking for zero-CapEx access to alternative coverage through Carrier Grade Wi-Fi or LTE/5G interconnects. 
 
 **This is where XNET comes in.**
 
