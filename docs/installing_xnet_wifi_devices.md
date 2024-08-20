@@ -14,7 +14,7 @@ Before you proceed with installing any **XNET access point (AP)**, it’s crucia
 2. **Completing the registration process:** Follow the steps provided by XNET to register the device. This typically involves entering the AP's serial number and completing any required setup procedures.
 3. **Checking for the "XNET" SSID:** After registration, an "XNET" SSID should become visible. If you don’t see an "XNET" SSID, this indicates a problem with the AP’s configuration or network connection.
 
-If the "XNET" SSID doesn’t appear, it’s important to **submit a support ticket** on the [XNET Discord](https://discord.com/invite/xnet) to troubleshoot the issue before the installation day. Addressing these problems in advance will save time and prevent delays during the actual deployment.
+If the "XNET" SSID doesn’t appear, it’s important to **submit a support ticket** on the [XNET Discord](https://discord.gg/xnetmobile) to troubleshoot the issue before the installation day. Addressing these problems in advance will save time and prevent delays during the actual deployment.
 
 ### Conducting Site Surveys and Assessing the Installation Environment
 
