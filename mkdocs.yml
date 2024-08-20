@@ -58,9 +58,9 @@ extra:
     - icon: fontawesome/brands/youtube
       link: https://www.youtube.com/channel/UCyIptNxGEgzXpckV5EL38qQ
   nav:
-    - "Custom Link 1": https://example.com
-    - "Custom Link 2": https://anotherexample.com
-    - "GitHub": https://github.com/your-repo
+    - "Website": https://xnet.company
+    - "Shop": https://shop.xnet.company
+    - "GitHub": https://github.com/xnetmobile
 
 copyright: "Copyright © 2024 XNET Inc."
 
