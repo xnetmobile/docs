@@ -58,9 +58,9 @@ extra:
     - icon: fontawesome/brands/youtube
       link: https://www.youtube.com/channel/UCyIptNxGEgzXpckV5EL38qQ
   nav:
-    - "Custom Link 1": https://example.com
-    - "Custom Link 2": https://anotherexample.com
-    - "GitHub": https://github.com/your-repo
+    - "Website": https://xnet.company
+    - "Shop": https://shop.xnet.company
+    - "GitHub": https://github.com/xnetmobile
 
 copyright: "Copyright © 2024 XNET Inc."
 
@@ -94,6 +94,13 @@ nav:
   - Migration:
     - Solana Migration, Part 1: 'migration.md'
     - Solana Migration, Part 2: 'migration_part_2.md'
+  - WiFi Deployer 101:
+    - Introduction to XNET WiFi Hardware: 'introduction_to_xnet_wifi_hardware.md'
+    - Identifying Ideal Deployment Locations: 'identifying_ideal_deployment_locations.md'
+    - Securing and Negotiating Deployment Locations: 'securing_negotiating_deployment_locations.md'
+    - Installing XNET WiFi Devices: 'installing_xnet_wifi_devices.md'
+    - Maintaining and Optimizing the XNET Network: 'maintaining_optimizing_xnet_network.md'
+    - Conclusion - Becoming a Successful XNET Deployer: 'successful_xnet_deployer_conclusion.md'
   - Technical Docs:
     - Carrier WiFi Offload: 'offload.md'
     - WiFi Reactivation: 'reactivation.md'
