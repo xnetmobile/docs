@@ -1,5 +1,8 @@
 # XNET Solana Token Claim Walkthrough
 
+## Why claim-based distribution?
+Claim-based distribution is generally considered to be superior to push-based distribution because it puts the timing of receiving tokens in your hands, which can be important for tax purposes.  Claiming processes can also be created that will allow the recovery of unclaimed tokens in case access to the original recipient wallet is lost. XNET plans on using a **claims-based distribution model** going forward, though we may implement our own claiming program separate from Streamflow in the future.
+
 ## **How to Claim Your Rewards Distribution**
 
 ### Steps
