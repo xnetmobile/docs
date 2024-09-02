@@ -63,7 +63,7 @@ Token distribution operates on the *XNET Epoch Schedule*. An Epoch is two weeks 
 - **Foundation Pool:** 432,000,000 tokens (18%) - Released over several years, this pool facilitates  charitable works and supports suitable organizations. 
 - **Ecosystem Pool:** 312,000,000 tokens (13%) - This pool is reserved for key strategic suppliers and partners, with a lockup period of 12-18 months.
 - **Operator Pool:** 936,000,000 tokens (39%) - This is the token mining reward pool for builders and validators of the XNET network. 
-- **Investor Pool:** 360,000,000 billion tokens (15%) - Used to gain access to investment in the network from Equity and (private) ICO investors. These tokens will be subject to a lockup period of 36-48 months.
+- **Investor Pool:** 360,000,000 tokens (15%) - Used to gain access to investment in the network from Equity and (private) ICO investors. These tokens will be subject to a lockup period of 36-48 months.
 - **Insider Pool:** 360,000,000 tokens (15%) - Used to reward founders, employees and advisors over time. These will be subject to vesting schedules over 36-48 months. 
 
 <p style="text-align: center;">
