@@ -47,13 +47,13 @@ Token distribution operates on the *XNET Epoch Schedule*. An Epoch is two weeks 
 
 <p style="text-align: center;">
 <a href="/token/08_2024_wifi.png" data-fancybox="gallery">
-      <img src="/token/08_2024_wifi.png" alt="Wi-Fi Earnings" width="600px">
+      <img src="/token/wifi-8-24.png" alt="Wi-Fi Earnings" width="600px">
     </a>    
 </p>
 
 <p style="text-align: center;">
 <a href="/token/CBRS_operator_rewards.jpg" data-fancybox="gallery">
-      <img src="/token/CBRS_operator_rewards.jpg" alt="CBRS Earnings" width="600px">
+      <img src="/token/cbrs-8-24.png" alt="CBRS Earnings" width="600px">
     </a>
 </p>
 
