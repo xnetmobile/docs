@@ -78,9 +78,9 @@
   *Until the device is qualified, rewards will not start.* It is imperative that you comply with this document to speed up that qualification process.
 
 - **Purchasing Recommendations**  
-  It is highly recommended to purchase your Wi-Fi access points from the official **XNET store** (link).  
+  It is highly recommended to purchase your Wi-Fi access points from the official [**XNET store**](https://shop.xnet.company).  
   These devices are brand new, include all required accessories, and are pre-provisioned for seamless activation on the network.
 
-- *We do not recommend purchasing third-party devices unless you know the seller well.*  
+- *We do not recommend purchasing XNET devices from third-party unless you know the seller well.*  
   If you are considering purchasing a used XNET device, make sure to check it against the [banned devices list](https://docs.google.com/spreadsheets/d/1zG0857rhkeRn-0lj_1k9Nn08Rw2x06xJQAT7cRTgwyQ/edit?gid=0#gid=0) to avoid issues with network onboarding.  
   **Banned devices cannot be reactivated** and are not eligible for receiving rewards.
