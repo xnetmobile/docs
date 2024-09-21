@@ -46,7 +46,7 @@ Token distribution operates on the *XNET Epoch Schedule*. An Epoch is two weeks 
     Token rewards will change over time as the network grows and new hardware becomes available. Stay on top of the latest earning rates in the tables below. 
 
 <p style="text-align: center;">
-<a href="/token/08_2024_wifi.png" data-fancybox="gallery">
+<a href="/token/wifi-8-24.png" data-fancybox="gallery">
       <img src="/token/wifi-8-24.png" alt="Wi-Fi Earnings" width="600px">
     </a>    
 </p>

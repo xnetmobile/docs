@@ -1,6 +1,6 @@
-# Reactivation Walkthrough Guide
+# WiFi Reactivation Walkthrough Guide
 
-Welcome to the XNET Reactivation Walkthrough Guide! In this guide, we'll walk you through the
+Welcome to the XNET WiFi Reactivation Walkthrough Guide! In this guide, we'll walk you through the
 process of creating your new XNET login account and reactivating your XNET Wi-Fi access
 points. Please follow each step carefully to ensure a smooth reactivation experience.
 
@@ -43,11 +43,7 @@ to reactivate.
 
 Steps:
 
-1. Once logged into the activation portal, choose your device from the “Serial
-Number” dropdown list.
-Note: Only your Wi-Fi devices will appear in this activation form. You will
-see a warning symbol next to every device that has not been reactivated
-and a check mark next to devices that have been successfully reactivated.
+1. Once logged into the activation portal, choose your device from the “Serial Number” dropdown list. Note: Only your Wi-Fi devices will appear in this activation form. You will see a warning symbol next to every device that has not been reactivated and a check mark next to devices that have been successfully reactivated.
 
 
 
@@ -125,10 +121,7 @@ On-Site Contact Full Name & Phone Number.
       <img src="/reactivation/page_8_img_2.jpeg" alt="Relevant Image" width="500px">
     </a>
 
-5. Next Ensure that the “Xnet Operator Information” is correct and filled in
-for each field. The Email Address, Discord Username and MetaMask
-Wallets Fields will lock after submission so please ensure all the
-information is correctly filled in.
+5. Next Ensure that the “Xnet Operator Information” is correct and filled in for each field. The Email Address, Discord Username and Phantom Wallets Fields will lock after submission so please ensure all the information is correctly filled in.
 
 !!! Warning
     You MUST fill in a Solana Wallet Address for our upcoming Solana Token migration to start collecting XNET rewards when the migration is complete.
@@ -141,14 +134,9 @@ information is correctly filled in.
 !!! Note 
     For Onsite Security, choose one or more options from the dropdown. if you don’t know what it is, you likely don’t have it. Choose the “Default Network Security” option if you don't have any other security.
 
-6. In this section “Deployment Site ISP Information” we will need to gather
-some important ISP requirements you must fill in. Please fill this out to the
-best of your ability.
+6. In this section “Deployment Site ISP Information” we will need to gather some important ISP requirements you must fill in. Please fill this out to the best of your ability.
 
-7. If you have updated Images of your AP deployments you need to upload
-you can attach new images before submitting.
-
-
+7. If you have updated Images of your AP deployments you need to upload you can attach new images before submitting.
 
     <a href="/reactivation/page_10_img_2.png" data-fancybox="gallery">
       <img src="/reactivation/page_10_img_2.png" alt="Relevant Image" width="500px">
@@ -159,8 +147,7 @@ you can attach new images before submitting.
       <img src="/reactivation/page_10_img_3.jpeg" alt="Relevant Image" width="500px">
     </a>
 
-8. Lastly once you’ve hit the Submit button it will trigger a reactivation for the
-AP you have selected and save the information you have provided.
+8. Lastly once you’ve hit the Submit button it will trigger a reactivation for the AP you have selected and save the information you have provided.
 
 
     <a href="/reactivation/page_11_img_2.jpeg" data-fancybox="gallery">
