@@ -52,7 +52,7 @@ Token distribution operates on the *XNET Epoch Schedule*. An Epoch is two weeks 
 </p>
 
 <p style="text-align: center;">
-<a href="/token/CBRS_operator_rewards.jpg" data-fancybox="gallery">
+<a href="/token/cbrs-8-24.png" data-fancybox="gallery">
       <img src="/token/cbrs-8-24.png" alt="CBRS Earnings" width="600px">
     </a>
 </p>
