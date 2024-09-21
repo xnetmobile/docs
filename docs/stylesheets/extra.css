@@ -23,6 +23,11 @@
     font-size: 1.2em;   /* Adjust the font size (e.g., 1em, 1.2em, 16px, etc.) */
 }
 
+#__nav_5_label.md-nav__link {
+    font-weight: bold;  /* Adjust the boldness (e.g., normal, bold, 700, etc.) */
+    font-size: 1.2em;   /* Adjust the font size (e.g., 1em, 1.2em, 16px, etc.) */
+}
+
 .md-nav {
     padding-left: 7px; /* Adds 10 pixels of inward spacing */
 }
