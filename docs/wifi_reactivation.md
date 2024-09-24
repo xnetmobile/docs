@@ -21,21 +21,17 @@ to reactivate.
 2. Select Sign Up from the Login Page.
 3. Create a New XNET login account by filling the required fields.
 
-!!! Note
-    If you are reactivating, you must use the same email from your previous account login but choose a New Password. Otherwise, you will not be able to see your existing radios.
+    !!! Note
+        If you are reactivating, you must use the same email from your previous account login but choose a New Password. Otherwise, you will not be able to see your existing radios.
+
+    <a href="/reactivation/page_2_img_2.jpeg" data-fancybox="gallery">
+      <img src="/reactivation/page_2_img_2.jpeg" alt="Relevant Image" width="500px">
+    </a>
 
 
-
-
-
-<a href="/reactivation/page_2_img_2.jpeg" data-fancybox="gallery">
-  <img src="/reactivation/page_2_img_2.jpeg" alt="Relevant Image" width="500px">
-</a>
-
-
-<a href="/reactivation/page_2_img_3.jpeg" data-fancybox="gallery">
-  <img src="/reactivation/page_2_img_3.jpeg" alt="Relevant Image" width="500px">
-</a>
+    <a href="/reactivation/page_2_img_3.jpeg" data-fancybox="gallery">
+      <img src="/reactivation/page_2_img_3.jpeg" alt="Relevant Image" width="500px">
+    </a>
 
 4. Sign into your newly created account with your Email and New Password.
 
@@ -67,13 +63,7 @@ Steps:
       <img src="/reactivation/page_4_img_4.jpeg" alt="Relevant Image" width="400px">
     </a>
 
-2. Next, Select a site location from the “My Venues” dropdown field. Ensure
-that all the relevant fields are filled in for the venue you have chosen, if
-they are not, update the fields and they will save for that location when you
-submit the rest of the form.
-
-
-
+2. Next, Select a site location from the “My Venues” dropdown field. Ensure that all the relevant fields are filled in for the venue you have chosen, if they are not, update the fields and they will save for that location when you submit the rest of the form.
 
     <a href="/reactivation/page_5_img_2.jpeg" data-fancybox="gallery">
       <img src="/reactivation/page_5_img_2.jpeg" alt="Relevant Image" width="500px">
@@ -84,20 +74,11 @@ submit the rest of the form.
       <img src="/reactivation/page_5_img_3.jpeg" alt="Relevant Image" width="500px">
     </a>
 
-3. Users now have the option to “Create A New Site” if you don’t see one of
-your venue locations or need to create a new one. From the My Venues
-dropdown, select the Create A New Site option. This will bring you to a
-new page where you can fill in all the relevant information about your new
-venue. Once you have filled in all the required fields, your new site will
-show up in the My Venues dropdown as the venue name you assigned it.
-
-
+3. Users now have the option to “Create A New Site” if you don’t see one of your venue locations or need to create a new one. From the My Venues dropdown, select the Create A New Site option. This will bring you to a new page where you can fill in all the relevant information about your new venue. Once you have filled in all the required fields, your new site will show up in the My Venues dropdown as the venue name you assigned it.
 
     <a href="/reactivation/page_6_img_2.jpeg" data-fancybox="gallery">
       <img src="/reactivation/page_6_img_2.jpeg" alt="Relevant Image" width="500px">
     </a>
-
-
 
     <a href="/reactivation/page_7_img_2.jpeg" data-fancybox="gallery">
       <img src="/reactivation/page_7_img_2.jpeg" alt="Relevant Image" width="500px">
@@ -123,16 +104,16 @@ On-Site Contact Full Name & Phone Number.
 
 5. Next Ensure that the “Xnet Operator Information” is correct and filled in for each field. The Email Address, Discord Username and Phantom Wallets Fields will lock after submission so please ensure all the information is correctly filled in.
 
-!!! Warning
-    You MUST fill in a Solana Wallet Address for our upcoming Solana Token migration to start collecting XNET rewards when the migration is complete.
+    !!! Warning
+        You MUST fill in a Solana Wallet Address for our upcoming Solana Token migration to start collecting XNET rewards when the migration is complete.
 
 
-  <a href="/reactivation/page_9_img_2.jpeg" data-fancybox="gallery">
-    <img src="/reactivation/page_9_img_2.jpeg" alt="Relevant Image" width="500px">
-  </a>
+    <a href="/reactivation/page_9_img_2.jpeg" data-fancybox="gallery">
+      <img src="/reactivation/page_9_img_2.jpeg" alt="Relevant Image" width="500px">
+    </a>
 
-!!! Note 
-    For Onsite Security, choose one or more options from the dropdown. if you don’t know what it is, you likely don’t have it. Choose the “Default Network Security” option if you don't have any other security.
+    !!! Note 
+        For Onsite Security, choose one or more options from the dropdown. if you don’t know what it is, you likely don’t have it. Choose the “Default Network Security” option if you don't have any other security.
 
 6. In this section “Deployment Site ISP Information” we will need to gather some important ISP requirements you must fill in. Please fill this out to the best of your ability.
 
