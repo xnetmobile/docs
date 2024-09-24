@@ -61,7 +61,7 @@ Steps:
     </a>
 
     <a href="/cbrs_reactivation/page7_img1.png" data-fancybox="gallery">
-        <img src="/cbrs_reactivation/page7_img1.png" alt="Image from page 7" width="500px">
+        <img src="/cbrs_reactivation/page7_img1.png" alt="Image from page 7" width="400px">
     </a>
     
 
