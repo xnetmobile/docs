@@ -1,26 +1,55 @@
 # The XNET Token
 
-## Token Basics
+## Overview
 
-As of August 2024, XNET has successfully transitioned to the Solana network. The `$XNET` Token is a Solana SPL Token with a max supply of 2,400,000,000 (two billion, four hundred million) deflationary XNET tokens (`$XNET`). These tokens will be issued gradually over time and be allocated according to the breakdown below.
+As of September 2024, $XNET has successfully migrated to the Solana blockchain. $XNET is an SPL-Token 2022 with a maximum supply of 2,400,000,000 (two billion, four hundred million) deflationary tokens ($XNET). 
 
-!!! Warning
-    Don't be fooled! Confirm you are using the official Solana `$XNET` token address for all transactions. 
-      
-      Address = ==xNETbUB7cRb3AAu2pNG2pUwQcJ2BHcktfvSB8x1Pq6L==
+<p style="text-align: center;">
+  <a href="/token/XNET1.webp" data-fancybox="gallery">
+    <img src="/token/XNET1.webp" width="600px">
+  </a>
+  <br />
+  <a href="/token/XNET2.webp" data-fancybox="gallery">
+    <img src="/token/XNET2.webp" width="600px">
+  </a>
+  <br />
+  <a href="/token/XNET3.webp" data-fancybox="gallery">
+    <img src="/token/XNET3.webp" width="600px">
+  </a>
+  <br />
+  <a href="/token/XNET4.webp" data-fancybox="gallery">
+    <img src="/token/XNET4.webp" width="600px">
+  </a>
+  <br />
+  <a href="/token/XNET5.webp" data-fancybox="gallery">
+    <img src="/token/XNET5.webp" width="600px">
+  </a>
+  <br />
+  <a href="/token/XNET6.webp" data-fancybox="gallery">
+    <img src="/token/XNET6.webp" width="600px">
+  </a>
+  <br />
+  <a href="/token/XNET7.webp" data-fancybox="gallery">
+    <img src="/token/XNET7.webp" width="600px">
+  </a>
+  <br />
+  <a href="/token/XNET8.webp" data-fancybox="gallery">
+    <img src="/token/XNET8.webp" width="600px">
+  </a>
+</p>
 
+## Economics
 
-## `$XNET` Economics
+For the XNET network to thrive, its economic model must benefit all participants. The $XNET Token serves as the bridge between two key groups:
 
-In order for the XNET network to operate, the economics must work for all participants. The `$XNET` Token unites two groups:
+- **Node Operators** – individuals or businesses who build and maintain the network’s physical infrastructure.
+- **Mobile Network Operators (MNOs)** – who pay to utilize the coverage created by these node operators.
 
-1. Those who build the network's physical infrastructure (node operators mainly), and,
-2. Mobile Network Operators who pay to use the footprint created by the deployers.
+Node operators are rewarded in $XNET Tokens for their contributions, while MNOs, as the end-users of the XNET Network, pay for access through carrier offload services.
 
-Node operators, whether they be businesses or individuals, are who earn the `$XNET` Token. Mobile Network Operators are the end user of the XNET Network, and must pay to access XNET whether it be via LTE roaming or Carrier WiFi offload.
 
 !!! Note
-    Mobile Network Operators strictly settle in cash, and the XNET Foundation is what bridges the gap between the `$XNET` Token and the world of Fiat dollars. The majority of every dollar of offload revenue will be used by the XNET foundation to buy XNET on the open market then burn, thereby permanently removing the tokens from circulation.
+    MNOs exclusively settle payments in fiat currency, and the XNET Foundation acts as the critical link between the fiat world and the $XNET token economy. A majority of the offload revenue generated is used by the Foundation to purchase $XNET on the open market and burn it—slowly helping to further reduce the overall token supply.
 
 <p style="text-align: center;">
 <a href="/token/buyburn_2.png" data-fancybox="gallery">
@@ -40,10 +69,10 @@ Node operators, whether they be businesses or individuals, are who earn the `$XN
 
 ## Earning `$XNET`
 
-Token distribution operates on the *XNET Epoch Schedule*. An Epoch is two weeks long, landing on a Sunday. The very first XNET Epoch was November 28th, 2022. On the first or second day of the new epoch, token distribution takes place and the community of XNET builders received tokens commensurate with the hardware deployed, uptime, data throughput and location.
+Token distribution follows the end of XNET Epochs, each epoch lasts two weeks and ends on Sunday. Epoch 1 began on November 28th, 2022. The amount of tokens each deployer receives is based on numerous vectors such as the hardware deployed, uptime, data throughput and location.
 
 !!! TIP
-    Token rewards will change over time as the network grows and new hardware becomes available. Stay on top of the latest earning rates in the tables below. 
+    Token rewards will require ongoing oversight and are likely to fluctuate over time. As the number of node operators grows and new technologies emerge, the XNET Foundation Working Group, in collaboration with community made XIP proposals, will actively adjust emissions to ensure the network's sustainability as it continues to scale.
 
 <p style="text-align: center;">
 <a href="/token/wifi-8-24.png" data-fancybox="gallery">
