@@ -104,6 +104,7 @@ nav:
       - Conclusion - Becoming a Successful XNET Deployer: 'successful_xnet_deployer_conclusion.md'
     - Carrier WiFi Offload: 'offload.md'
     - WiFi Reactivation Guide: 'wifi_reactivation.md'
+    - CBRS Reactivation Guide: 'cbrs_reactivation.md'
     - Datasheets: 'datasheet.md'
     - Archive: 'archive.md'
   - '<span class="xnet-home-link">XNET Home</span>': https://xnet.company
