@@ -10,7 +10,7 @@ This step may not be necessary, depending on your situation. If you have previou
 
 Steps:
 
-1. Go to activate.xnet.world and select CBRS from the dropdown.
+1. Go to [activate.xnet.world](https://activate.xnet.world) and select CBRS from the dropdown.
 
 2. Select Sign Up from the Login Page.
 
@@ -54,7 +54,7 @@ Steps:
     </a>
 
     
-3. If you don’t see the correct venue listed, select Create A New Site at the bottom of the dropdown menu. This will bring you to a new page where you can ﬁll in all the relevant information about your new venue. Once you have ﬁlled in all the required ﬁelds, your new site will show up in the My Venues dropdown as the venue name you assigned it.
+3. If you don’t see the correct venue listed, select `Create A New Site` at the bottom of the dropdown menu. This will bring you to a new page where you can ﬁll in all the relevant information about your new venue. Once you have ﬁlled in all the required ﬁelds, your new site will show up in the `My Venues` dropdown as the venue name you assigned it.
 
     <a href="/cbrs_reactivation/page6_img1.png" data-fancybox="gallery">
       <img src="/cbrs_reactivation/page6_img1.png" alt="Image from page 6" width="500px">
@@ -65,7 +65,7 @@ Steps:
     </a>
     
 
-4. When selecting a deployment site from the My Venues dropdown, it should auto-populate the “Deployment Site Address” ﬁelds and other relevant information about the site. Please ensure that the information is correct and that additional site information is included if available, such as Suite, Floor, or Building Number. You will also be required to add the On-Site Contact Full Name & Phone Number.
+4. When selecting a deployment site from the `My Venues` dropdown, it should auto-populate the “Deployment Site Address” ﬁelds and other relevant information about the site. Please ensure that the information is correct and that additional site information is included if available, such as Suite, Floor, or Building Number. You will also be required to add the On-Site Contact Full Name & Phone Number.
 
     <a href="/cbrs_reactivation/page7_img2.png" data-fancybox="gallery">
         <img src="/cbrs_reactivation/page7_img2.png" alt="Image from page 7" width="500px">
