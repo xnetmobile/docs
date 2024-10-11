@@ -89,6 +89,8 @@ nav:
     - Build the Network: 'build.md'
     - Charter: 'charter.md'
     - Acceptable Use: 'acceptable_use.md'
+    - WiFi Deployer Guidelines: 'wifi_deployer_guidelines.md'
+    - WiFi Deployer Management Process: 'wifi_deployer_management_process.md'
   - Token: 
     - The XNET Token: 'token.md'
     - Claiming Rewards: 'distribution.md'
