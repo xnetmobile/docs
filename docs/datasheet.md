@@ -8,7 +8,7 @@ Below are manufacturing datasheets for supported hardware.
 | Device |
 |-----------------|
 | [XP6 Pro](https://xnet.company/files/AP6-PRO.pdf) |
-| [XG1 Marconi](https://xnet.company/files/XG1Marconi.pdf) |
+| [XG1 Marconi](https://docs.xnet.company/pdfs/marcoini_gateway_doc.pdf) |
 | [X01 Lucius](https://xnet.company/files/XO1Datasheet-Lucius.pdf) |
 | [XR1 Roofus](https://xnet.company/files/XR1Datasheet-Roofus.pdf) |
 | [XV2-2T0](https://xnet.company/files/WiFi-6_XV2-2T0_AP.pdf) |
