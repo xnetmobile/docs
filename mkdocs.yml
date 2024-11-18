@@ -1,5 +1,5 @@
 site_name: XNET Docs
-site_url: https://xnet.company
+site_url: https://docs.xnet.company
 
 theme:
   logo: /stylesheets/logo.webp
@@ -49,7 +49,7 @@ theme:
       quote: fontawesome/solid/quote-left
 
 extra:
-  homepage: https://www.xnet.company/
+  homepage: https://docs.xnet.company/
   social:
     - icon: fontawesome/brands/discord
       link: https://discord.gg/xnetmobile
@@ -114,7 +114,8 @@ nav:
       - Carrier WiFi Offload: 'tech/tutorials/offload.md'
     - Datasheets: 'tech/datasheet.md'
     - Archive: 'tech/archive.md'
-  - '<span class="xnet-home-link">XNET Home</span>': https://xnet.company
+  - '<span class="xnet-home-link">XNET Inc</span>': https://xnet.company
+  - '<span class="xnet-home-link">XNET Foundation</span>': https://xnet.foundation
 
 extra_css:
   - stylesheets/extra.css
