@@ -9,7 +9,7 @@
 </h2>
 
 <div style="text-align: center;">
-  <a href="/index/header2.png" data-fancybox="gallery">
-    <img src="/index/header2.png" alt="XNET" width="600px">
+  <a href="/img/index/header2.png" data-fancybox="gallery">
+    <img src="/img/index/header2.png" alt="XNET" width="600px">
   </a>
 </div>

@@ -37,13 +37,13 @@ The process flow is `$(W)XNET -> $XNET`.
 1. Navigate to the [XNET Token Conversion Tool](https://tokenconvert.xnet.foundation/) using your preferred browser method that integrates with your desktop browser wallet.
 
    <a href="/migration/upgrade.png" data-fancybox="gallery">
-      <img src="/migration/upgrade.png" alt="Upgrade UI" width="400px">
+      <img src="/img/migration/upgrade.png" alt="Upgrade UI" width="400px">
    </a>
 
 <!-- 2. You may see a warning banner. Choose the **"Proceed Anyway"** option; you may have to do this a few times. (Note: We are working on getting it whitelisted).
 
    <a href="/migration/block.png" data-fancybox="gallery">
-      <img src="/migration/block.png" alt="Whitelist" width="250px">
+      <img src="/img/migration/block.png" alt="Whitelist" width="250px">
    </a> -->
 
 **Step 2: Connect Your Phantom Wallet**
@@ -62,7 +62,7 @@ The process flow is `$(W)XNET -> $XNET`.
 1. Review the details of the conversion.
 
 <a href="/migration/confirm.jpg" data-fancybox="gallery">
-      <img src="/migration/confirm.jpg" alt="Confirmation" width="250px">
+      <img src="/img/migration/confirm.jpg" alt="Confirmation" width="250px">
    </a>
 
 2. Confirm and approve the transaction in your Phantom wallet.

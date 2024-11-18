@@ -14,7 +14,7 @@ Steps:
 to reactivate.
 
 
-    <a href="/reactivation/page_1_img_1.jpeg" data-fancybox="gallery"> <img src="/reactivation/page_1_img_1.jpeg" alt="Relevant Image" width="500px"></a>
+    <a href="/reactivation/page_1_img_1.jpeg" data-fancybox="gallery"> <img src="/img/reactivation/page_1_img_1.jpeg" alt="Relevant Image" width="500px"></a>
 
 
 
@@ -25,12 +25,12 @@ to reactivate.
         If you are reactivating, you must use the same email from your previous account login but choose a New Password. Otherwise, you will not be able to see your existing radios.
 
     <a href="/reactivation/page_2_img_2.jpeg" data-fancybox="gallery">
-      <img src="/reactivation/page_2_img_2.jpeg" alt="Relevant Image" width="500px">
+      <img src="/img/reactivation/page_2_img_2.jpeg" alt="Relevant Image" width="500px">
     </a>
 
 
     <a href="/reactivation/page_2_img_3.jpeg" data-fancybox="gallery">
-      <img src="/reactivation/page_2_img_3.jpeg" alt="Relevant Image" width="500px">
+      <img src="/img/reactivation/page_2_img_3.jpeg" alt="Relevant Image" width="500px">
     </a>
 
 4. Sign into your newly created account with your Email and New Password.
@@ -44,49 +44,49 @@ Steps:
 
 
     <a href="/reactivation/page_3_img_2.jpeg" data-fancybox="gallery">
-      <img src="/reactivation/page_3_img_2.jpeg" alt="Relevant Image" width="400px">
+      <img src="/img/reactivation/page_3_img_2.jpeg" alt="Relevant Image" width="400px">
     </a>
 
 
 
     <a href="/reactivation/page_4_img_2.jpeg" data-fancybox="gallery">
-      <img src="/reactivation/page_4_img_2.jpeg" alt="Relevant Image" width="400px">
+      <img src="/img/reactivation/page_4_img_2.jpeg" alt="Relevant Image" width="400px">
     </a>
 
 
     <a href="/reactivation/page_4_img_3.jpeg" data-fancybox="gallery">
-      <img src="/reactivation/page_4_img_3.jpeg" alt="Relevant Image" width="400px">
+      <img src="/img/reactivation/page_4_img_3.jpeg" alt="Relevant Image" width="400px">
     </a>
 
 
     <a href="/reactivation/page_4_img_4.jpeg" data-fancybox="gallery">
-      <img src="/reactivation/page_4_img_4.jpeg" alt="Relevant Image" width="400px">
+      <img src="/img/reactivation/page_4_img_4.jpeg" alt="Relevant Image" width="400px">
     </a>
 
 2. Next, Select a site location from the “My Venues” dropdown field. Ensure that all the relevant fields are filled in for the venue you have chosen, if they are not, update the fields and they will save for that location when you submit the rest of the form.
 
     <a href="/reactivation/page_5_img_2.jpeg" data-fancybox="gallery">
-      <img src="/reactivation/page_5_img_2.jpeg" alt="Relevant Image" width="500px">
+      <img src="/img/reactivation/page_5_img_2.jpeg" alt="Relevant Image" width="500px">
     </a>
 
 
     <a href="/reactivation/page_5_img_3.jpeg" data-fancybox="gallery">
-      <img src="/reactivation/page_5_img_3.jpeg" alt="Relevant Image" width="500px">
+      <img src="/img/reactivation/page_5_img_3.jpeg" alt="Relevant Image" width="500px">
     </a>
 
 3. Users now have the option to “Create A New Site” if you don’t see one of your venue locations or need to create a new one. From the My Venues dropdown, select the Create A New Site option. This will bring you to a new page where you can fill in all the relevant information about your new venue. Once you have filled in all the required fields, your new site will show up in the My Venues dropdown as the venue name you assigned it.
 
     <a href="/reactivation/page_6_img_2.jpeg" data-fancybox="gallery">
-      <img src="/reactivation/page_6_img_2.jpeg" alt="Relevant Image" width="500px">
+      <img src="/img/reactivation/page_6_img_2.jpeg" alt="Relevant Image" width="500px">
     </a>
 
     <a href="/reactivation/page_7_img_2.jpeg" data-fancybox="gallery">
-      <img src="/reactivation/page_7_img_2.jpeg" alt="Relevant Image" width="500px">
+      <img src="/img/reactivation/page_7_img_2.jpeg" alt="Relevant Image" width="500px">
     </a>
 
 
     <a href="/reactivation/page_7_img_3.jpeg" data-fancybox="gallery">
-      <img src="/reactivation/page_7_img_3.jpeg" alt="Relevant Image" width="500px">
+      <img src="/img/reactivation/page_7_img_3.jpeg" alt="Relevant Image" width="500px">
     </a>
 
 4. When selecting a deployment site from the My Venues dropdown, it
@@ -99,7 +99,7 @@ On-Site Contact Full Name & Phone Number.
 
 
     <a href="/reactivation/page_8_img_2.jpeg" data-fancybox="gallery">
-      <img src="/reactivation/page_8_img_2.jpeg" alt="Relevant Image" width="500px">
+      <img src="/img/reactivation/page_8_img_2.jpeg" alt="Relevant Image" width="500px">
     </a>
 
 5. Next Ensure that the “Xnet Operator Information” is correct and filled in for each field. The Email Address, Discord Username and Phantom Wallets Fields will lock after submission so please ensure all the information is correctly filled in.
@@ -109,7 +109,7 @@ On-Site Contact Full Name & Phone Number.
 
 
     <a href="/reactivation/page_9_img_2.jpeg" data-fancybox="gallery">
-      <img src="/reactivation/page_9_img_2.jpeg" alt="Relevant Image" width="500px">
+      <img src="/img/reactivation/page_9_img_2.jpeg" alt="Relevant Image" width="500px">
     </a>
 
     !!! Note 
@@ -120,17 +120,17 @@ On-Site Contact Full Name & Phone Number.
 7. If you have updated Images of your AP deployments you need to upload you can attach new images before submitting.
 
     <a href="/reactivation/page_10_img_2.png" data-fancybox="gallery">
-      <img src="/reactivation/page_10_img_2.png" alt="Relevant Image" width="500px">
+      <img src="/img/reactivation/page_10_img_2.png" alt="Relevant Image" width="500px">
     </a>
 
 
     <a href="/reactivation/page_10_img_3.jpeg" data-fancybox="gallery">
-      <img src="/reactivation/page_10_img_3.jpeg" alt="Relevant Image" width="500px">
+      <img src="/img/reactivation/page_10_img_3.jpeg" alt="Relevant Image" width="500px">
     </a>
 
 8. Lastly once you’ve hit the Submit button it will trigger a reactivation for the AP you have selected and save the information you have provided.
 
 
     <a href="/reactivation/page_11_img_2.jpeg" data-fancybox="gallery">
-      <img src="/reactivation/page_11_img_2.jpeg" alt="Relevant Image" width="500px">
+      <img src="/img/reactivation/page_11_img_2.jpeg" alt="Relevant Image" width="500px">
     </a>

@@ -4,7 +4,7 @@ An introduction guide to Hotspot 2.0
 **May 6, 2024**
 
   <a href="/offload/page_2_img_2.png" data-fancybox="gallery">
-    <img src="/offload/page_2_img_2.png" alt="Relevant Image" width="500px">
+    <img src="/img/offload/page_2_img_2.png" alt="Relevant Image" width="500px">
   </a>
 
 ## Introduction
@@ -23,7 +23,7 @@ Carrier Offload, often referred to in the context of mobile networks, is a techn
 
 
   <a href="/offload/page_3_img_2.png" data-fancybox="gallery">
-    <img src="/offload/page_3_img_2.png" alt="Relevant Image" width="500px">
+    <img src="/img/offload/page_3_img_2.png" alt="Relevant Image" width="500px">
   </a>
 
 ## Benefits of Carrier Offload

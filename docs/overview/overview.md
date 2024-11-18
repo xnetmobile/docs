@@ -48,7 +48,7 @@ We believe decentralized wireless networks not only make technological sense, bu
 <p style="text-align: center;">Most importantly, our builders are what fuels this machine.</p>
 
 <p style="text-align: center;">
-<img src="/overview/network.png" alt="XNET" width="400" />
+<img src="/img/overview/network.png" alt="XNET" width="400" />
 </p>
 
 
