@@ -6,35 +6,35 @@ As of September 2024, $XNET has successfully migrated to the Solana blockchain. 
 
 <p style="text-align: center;">
   <a href="/token/XNET1.webp" data-fancybox="gallery">
-    <img src="/token/XNET1.webp" width="600px">
+    <img src="/img/token/XNET1.webp" width="600px">
   </a>
   <br />
   <a href="/token/XNET2.webp" data-fancybox="gallery">
-    <img src="/token/XNET2.webp" width="600px">
+    <img src="/img/token/XNET2.webp" width="600px">
   </a>
   <br />
   <a href="/token/XNET3.webp" data-fancybox="gallery">
-    <img src="/token/XNET3.webp" width="600px">
+    <img src="/img/token/XNET3.webp" width="600px">
   </a>
   <br />
   <a href="/token/XNET4.webp" data-fancybox="gallery">
-    <img src="/token/XNET4.webp" width="600px">
+    <img src="/img/token/XNET4.webp" width="600px">
   </a>
   <br />
   <a href="/token/XNET5.webp" data-fancybox="gallery">
-    <img src="/token/XNET5.webp" width="600px">
+    <img src="/img/token/XNET5.webp" width="600px">
   </a>
   <br />
   <a href="/token/XNET6.webp" data-fancybox="gallery">
-    <img src="/token/XNET6.webp" width="600px">
+    <img src="/img/token/XNET6.webp" width="600px">
   </a>
   <br />
   <a href="/token/XNET7.webp" data-fancybox="gallery">
-    <img src="/token/XNET7.webp" width="600px">
+    <img src="/img/token/XNET7.webp" width="600px">
   </a>
   <br />
   <a href="/token/XNET8.webp" data-fancybox="gallery">
-    <img src="/token/XNET8.webp" width="600px">
+    <img src="/img/token/XNET8.webp" width="600px">
   </a>
 </p>
 
@@ -53,7 +53,7 @@ Node operators are rewarded in $XNET Tokens for their contributions, while MNOs,
 
 <p style="text-align: center;">
 <a href="/token/buyburn_2.png" data-fancybox="gallery">
-      <img src="/token/buyburn_2.png" alt="Buy & Burn" width="600px">
+      <img src="/img/token/buyburn_2.png" alt="Buy & Burn" width="600px">
     </a>
     <br />
   <span style="font-size: smaller; color: gray;">The core economic function of the XNET Network.</span>
@@ -61,7 +61,7 @@ Node operators are rewarded in $XNET Tokens for their contributions, while MNOs,
 
 <p style="text-align: center;">
 <a href="/token/economy_2.png" data-fancybox="gallery">
-      <img src="/token/economy_2.png" alt="the XNET Economy" width="600px">
+      <img src="/img/token/economy_2.png" alt="the XNET Economy" width="600px">
     </a>
     <br />
   <span style="font-size: smaller; color: gray;">Top: Traffic flows from XNET node to end user, with $XNET reward flowing from treasury to node owner. Bottom: Several inputs go into determining $XNET rewards.</span>
@@ -76,12 +76,12 @@ Token distribution follows the end of XNET Epochs, each epoch lasts two weeks an
 
 <p style="text-align: center;">
 <a href="/token/wifi-8-24.png" data-fancybox="gallery">
-      <img src="/token/wifi-8-24.png" alt="Wi-Fi Earnings" width="600px">
+      <img src="/img/token/wifi-8-24.png" alt="Wi-Fi Earnings" width="600px">
     </a>    
 </p>
 
 <p style="text-align: center;">
 <a href="/token/cbrs-8-24.png" data-fancybox="gallery">
-      <img src="/token/cbrs-8-24.png" alt="CBRS Earnings" width="600px">
+      <img src="/img/token/cbrs-8-24.png" alt="CBRS Earnings" width="600px">
     </a>
 </p>

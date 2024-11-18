@@ -85,30 +85,35 @@ markdown_extensions:
 
 nav: 
   - Overview:
-    - XNET Vision: 'overview.md'
-    - Build the Network: 'build.md'
-    - Charter: 'charter.md'
-    - Acceptable Use: 'acceptable_use.md'
-    - WiFi Deployer Guidelines: 'wifi_deployer_guidelines.md'
-    - WiFi Deployer Management Process: 'wifi_deployer_management_process.md'
+    - Vision: 'overview/overview.md'
+    - Charter: 'overview/charter.md'
+  - Build: 
+    - Introduction: 'build/deployments.md'
+    - WiFi:
+      - Deployer 101:
+        - Introduction to XNET WiFi Hardware: 'build/101/introduction_to_xnet_wifi_hardware.md'
+        - Identifying Ideal Deployment Locations: 'build/101/identifying_ideal_deployment_locations.md'
+        - Securing and Negotiating Deployment Locations: 'build/101/securing_negotiating_deployment_locations.md'
+        - Installing XNET WiFi Devices: 'build/101/installing_xnet_wifi_devices.md'
+        - Maintaining and Optimizing the XNET Network: build/101/maintaining_optimizing_xnet_network.md'
+        - Conclusion - Becoming a Successful XNET Deployer: 'build/101/successful_xnet_deployer_conclusion.md'
+      - Guidelines: 'build/wifi_deployer_guidelines.md'
+      - Process: 'build/wifi_deployer_management_process.md'
+      - Acceptable Use: 'build/acceptable_use.md'
+      - UHDP: 'build/uhdp_program.md'
   - Token: 
-    - The XNET Token: 'token.md'
-    - Claiming Rewards: 'distribution.md'
-    - Solana Migration, Part 1: 'migration.md'
-    - Solana Migration, Part 2: 'migration_part_2.md'
+    - The XNET Token: 'token/overview.md'
+    - Claiming Rewards: 'token/distribution.md'
+    - Solana Migration:
+      - Part 1: 'token/migration.md'
+      - Part 2: 'token/migration_part_2.md'
   - Technical Docs:
-    - WiFi Deployer 101:
-      - Introduction to XNET WiFi Hardware: 'introduction_to_xnet_wifi_hardware.md'
-      - Identifying Ideal Deployment Locations: 'identifying_ideal_deployment_locations.md'
-      - Securing and Negotiating Deployment Locations: 'securing_negotiating_deployment_locations.md'
-      - Installing XNET WiFi Devices: 'installing_xnet_wifi_devices.md'
-      - Maintaining and Optimizing the XNET Network: 'maintaining_optimizing_xnet_network.md'
-      - Conclusion - Becoming a Successful XNET Deployer: 'successful_xnet_deployer_conclusion.md'
-    - Carrier WiFi Offload: 'offload.md'
-    - WiFi Reactivation Guide: 'wifi_reactivation.md'
-    - CBRS Reactivation Guide: 'cbrs_reactivation.md'
-    - Datasheets: 'datasheet.md'
-    - Archive: 'archive.md'
+    - Tutorials:
+      - WiFi Reactivation Guide: 'tech/tutorials/wifi_reactivation.md'
+      - CBRS Reactivation Guide: 'tech/tutorials/cbrs_reactivation.md'
+      - Carrier WiFi Offload: 'tech/tutorials/offload.md'
+    - Datasheets: 'tech/datasheet.md'
+    - Archive: 'tech/archive.md'
   - '<span class="xnet-home-link">XNET Home</span>': https://xnet.company
 
 extra_css:
