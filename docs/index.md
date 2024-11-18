@@ -1,11 +1,10 @@
 <h1 style="text-align: center;">Welcome to XNET</h1>
 
 <h2 style="text-align: center;">
-  <a href="/overview/">Overview</a> &middot; 
-  <a href="/build/">Build</a> &middot; 
-  <a href="/token/">Token</a> &middot; 
-  <a href="/migration_part_2/">Solana</a> &middot; 
-  <a href="https://xnet.company">Home</a>
+  <a href="/overview/overview/">Overview</a> &middot; 
+  <a href="/build/deployments/">Build</a> &middot; 
+  <a href="/token/overview/">Token</a> &middot; 
+  <a href="/token/migration_part_2/">Solana</a>
 </h2>
 
 <div style="text-align: center;">

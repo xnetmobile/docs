@@ -35,8 +35,8 @@
 
 /* THIS IS THE SPECIAL XNET HOME LINK FORMATTING */
 .xnet-home-link {
-    font-size: 18px;   /* Adjust the font size */
-    color: #007BFF;    /* Change the text color */
+    font-size: 16px;   /* Adjust the font size */
+    color: #218bfb;    /* Change the text color */
     font-weight: bold; /* Make it bold */
 }
 
