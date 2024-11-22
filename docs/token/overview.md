@@ -85,3 +85,8 @@ Token distribution follows the end of XNET Epochs, each epoch lasts two weeks an
       <img src="/img/token/cbrs-8-24.png" alt="CBRS Earnings" width="600px">
     </a>
 </p>
+
+**For CBRS radios only:**
+
+- Radios achieving **50-75% uptime during an Epoch** will qualify for **50% of the maximum total $XNET** CV rewards for that period.
+- Radios that achieve **99.9% or higher uptime during an Epoch** will qualify for an **additional 10% bonus atop the maximum $XNET** rewards they are eligible for in that Epoch. 
