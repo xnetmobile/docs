@@ -3,11 +3,11 @@
 ## Acceptable Use
 
 - **Installation Compliance**  
-  Installing XNET APs (Access Points) according to all manufacturer, XNET, and [Wi-Fi best practices](https://docs.xnet.company/installing_xnet_wifi_devices/).
+  Installing XNET APs (Access Points) according to all manufacturer, XNET, and [Wi-Fi best practices](/build/101/installing_xnet_wifi_devices/).
 
 - **Proper Location**  
   Installing APs in business or public locations with high foot traffic and long dwell time, such as cafes, malls, or parks, ensuring legitimate use and automatic offload by users.  
-  *Residential or private locations are not acceptable* unless they meet these criteria. For more details, refer to [Identifying Ideal Locations](https://docs.xnet.company/identifying_ideal_deployment_locations/).
+  *Residential or private locations are not acceptable* unless they meet these criteria. For more details, refer to [Identifying Ideal Locations](/build/101/identifying_ideal_deployment_locations/).
 
 - **Accurate Location Reporting**  
   Providing the **accurate location** of the AP during registration to ensure proper network functioning and avoid disruptions.
