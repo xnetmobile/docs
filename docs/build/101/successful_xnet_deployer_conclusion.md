@@ -25,7 +25,7 @@ ______
 To help you on your journey, here are some resources:
 
 - [**XNET Installation Manuals:**](https://docs.xnet.company) These provide detailed instructions on deploying and configuring XNET hardware.
-- [**The XNET Discord:**](https://discord.gg/xnetmobile) Join this community for direct support and interaction with other deployers.
+- [**The XNET Discord:**](https://discord.gg/xnet) Join this community for direct support and interaction with other deployers.
 - **Industry Publications:** Regularly reading industry blogs and publications like **Network World** will keep you updated on the latest trends.
 
 ______
