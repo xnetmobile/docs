@@ -1,0 +1,1878 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="https://docs.xnet.company/build/101/identifying_ideal_deployment_locations/">
+      
+      
+        <link rel="prev" href="../introduction_to_xnet_wifi_hardware/">
+      
+      
+        <link rel="next" href="../securing_negotiating_deployment_locations/">
+      
+      
+      <link rel="icon" href="/stylesheets/logo.webp">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.47">
+    
+    
+      
+        <title>Identifying Ideal Deployment Locations - XNET Docs</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.6f8fc17f.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+  
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+  
+  <style>:root{--md-admonition-icon--info:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.7.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M256 512a256 256 0 1 0 0-512 256 256 0 1 0 0 512m-40-176h24v-64h-24c-13.3 0-24-10.7-24-24s10.7-24 24-24h48c13.3 0 24 10.7 24 24v88h8c13.3 0 24 10.7 24 24s-10.7 24-24 24h-80c-13.3 0-24-10.7-24-24s10.7-24 24-24m40-208a32 32 0 1 1 0 64 32 32 0 1 1 0-64"/></svg>');--md-admonition-icon--note:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.7.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M64 32C28.7 32 0 60.7 0 96v320c0 35.3 28.7 64 64 64h224V368c0-26.5 21.5-48 48-48h112V96c0-35.3-28.7-64-64-64zm384 320H336c-8.8 0-16 7.2-16 16v112l32-32 64-64z"/></svg>');--md-admonition-icon--abstract:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.7.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M96 0C43 0 0 43 0 96v320c0 53 43 96 96 96h320c17.7 0 32-14.3 32-32s-14.3-32-32-32v-64c17.7 0 32-14.3 32-32V32c0-17.7-14.3-32-32-32H96m0 384h256v64H96c-17.7 0-32-14.3-32-32s14.3-32 32-32m32-240c0-8.8 7.2-16 16-16h192c8.8 0 16 7.2 16 16s-7.2 16-16 16H144c-8.8 0-16-7.2-16-16m16 48h192c8.8 0 16 7.2 16 16s-7.2 16-16 16H144c-8.8 0-16-7.2-16-16s7.2-16 16-16"/></svg>');--md-admonition-icon--tip:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.7.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M480 32c0-12.9-7.8-24.6-19.8-29.6S434.5.2 425.3 9.3L381.7 53c-48 48-113.1 75-181 75H64c-35.3 0-64 28.7-64 64v96c0 35.3 28.7 64 64 64v128c0 17.7 14.3 32 32 32h64c17.7 0 32-14.3 32-32V352h8.7c67.9 0 133 27 181 75l43.6 43.6c9.2 9.2 22.9 11.9 34.9 6.9s19.8-16.6 19.8-29.6V300.3c18.6-8.8 32-32.5 32-60.4s-13.4-51.6-32-60.4zm-64 76.7v262.6C357.2 317.8 280.5 288 200.7 288H192v-96h8.7c79.8 0 156.5-29.8 215.3-83.3"/></svg>');--md-admonition-icon--success:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.7.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7l233.4-233.3c12.5-12.5 32.8-12.5 45.3 0z"/></svg>');--md-admonition-icon--question:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.7.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M256 512a256 256 0 1 0 0-512 256 256 0 1 0 0 512m-86.2-346.7c7.9-22.3 29.1-37.3 52.8-37.3h58.3c34.9 0 63.1 28.3 63.1 63.1 0 22.6-12.1 43.5-31.7 54.8L280 264.4c-.2 13-10.9 23.6-24 23.6-13.3 0-24-10.7-24-24v-13.5c0-8.6 4.6-16.5 12.1-20.8l44.3-25.4c4.7-2.7 7.6-7.7 7.6-13.1 0-8.4-6.8-15.1-15.1-15.1h-58.3c-3.4 0-6.4 2.1-7.5 5.3l-.4 1.2c-4.4 12.5-18.2 19-30.6 14.6s-19-18.2-14.6-30.6l.4-1.2zM224 352a32 32 0 1 1 64 0 32 32 0 1 1-64 0"/></svg>');--md-admonition-icon--warning:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.7.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M256 32c14.2 0 27.3 7.5 34.5 19.8l216 368c7.3 12.4 7.3 27.7.2 40.1S486.3 480 472 480H40c-14.3 0-27.6-7.7-34.7-20.1s-7-27.8.2-40.1l216-368C228.7 39.5 241.8 32 256 32m0 128c-13.3 0-24 10.7-24 24v112c0 13.3 10.7 24 24 24s24-10.7 24-24V184c0-13.3-10.7-24-24-24m32 224a32 32 0 1 0-64 0 32 32 0 1 0 64 0"/></svg>');--md-admonition-icon--failure:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.7.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M459.1 52.4 442.6 6.5c-1.9-3.9-6.1-6.5-10.5-6.5s-8.5 2.6-10.4 6.5l-16.5 45.9-46 16.8c-4.3 1.6-7.3 5.9-7.2 10.4 0 4.5 3 8.7 7.2 10.2l45.7 16.8 16.8 45.8c1.5 4.4 5.8 7.5 10.4 7.5s8.9-3.1 10.4-7.5l16.5-45.8 45.7-16.8c4.2-1.5 7.2-5.7 7.2-10.2 0-4.6-3-8.9-7.2-10.4zm-132.4 53c-12.5-12.5-32.8-12.5-45.3 0l-2.9 2.9c-22-8-45.8-12.3-70.5-12.3C93.1 96 0 189.1 0 304s93.1 208 208 208 208-93.1 208-208c0-24.7-4.3-48.5-12.2-70.5l2.9-2.9c12.5-12.5 12.5-32.8 0-45.3l-80-80zM200 192c-57.4 0-104 46.6-104 104v8c0 8.8-7.2 16-16 16s-16-7.2-16-16v-8c0-75.1 60.9-136 136-136h8c8.8 0 16 7.2 16 16s-7.2 16-16 16z"/></svg>');--md-admonition-icon--danger:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.7.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M416 398.9c58.5-41.1 96-104.1 96-174.9C512 100.3 397.4 0 256 0S0 100.3 0 224c0 70.7 37.5 133.8 96 174.9V464c0 26.5 21.5 48 48 48h48v-48c0-8.8 7.2-16 16-16s16 7.2 16 16v48h64v-48c0-8.8 7.2-16 16-16s16 7.2 16 16v48h48c26.5 0 48-21.5 48-48v-65.1M96 256a64 64 0 1 1 128 0 64 64 0 1 1-128 0m256-64a64 64 0 1 1 0 128 64 64 0 1 1 0-128"/></svg>');--md-admonition-icon--bug:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><!--! Font Awesome Free 6.7.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M320 0c17.7 0 32 14.3 32 32v64h120c39.8 0 72 32.2 72 72v272c0 39.8-32.2 72-72 72H168c-39.8 0-72-32.2-72-72V168c0-39.8 32.2-72 72-72h120V32c0-17.7 14.3-32 32-32M208 384c-8.8 0-16 7.2-16 16s7.2 16 16 16h32c8.8 0 16-7.2 16-16s-7.2-16-16-16zm96 0c-8.8 0-16 7.2-16 16s7.2 16 16 16h32c8.8 0 16-7.2 16-16s-7.2-16-16-16zm96 0c-8.8 0-16 7.2-16 16s7.2 16 16 16h32c8.8 0 16-7.2 16-16s-7.2-16-16-16zM264 256a40 40 0 1 0-80 0 40 40 0 1 0 80 0m152 40a40 40 0 1 0 0-80 40 40 0 1 0 0 80M48 224h16v192H48c-26.5 0-48-21.5-48-48v-96c0-26.5 21.5-48 48-48m544 0c26.5 0 48 21.5 48 48v96c0 26.5-21.5 48-48 48h-16V224z"/></svg>');--md-admonition-icon--example:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.7.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M288 0H128c-17.7 0-32 14.3-32 32s14.3 32 32 32v132.8c0 11.8-3.3 23.5-9.5 33.5L10.3 406.2C3.6 417.2 0 429.7 0 442.6 0 480.9 31.1 512 69.4 512h309.2c38.3 0 69.4-31.1 69.4-69.4 0-12.8-3.6-25.4-10.3-36.4L329.5 230.4c-6.2-10.1-9.5-21.7-9.5-33.5V64c17.7 0 32-14.3 32-32S337.7 0 320 0zm-96 196.8V64h64v132.8c0 23.7 6.6 46.9 19 67.1l34.5 56.1h-171l34.5-56.1c12.4-20.2 19-43.4 19-67.1"/></svg>');--md-admonition-icon--quote:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.7.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M0 216C0 149.7 53.7 96 120 96h8c17.7 0 32 14.3 32 32s-14.3 32-32 32h-8c-30.9 0-56 25.1-56 56v8h64c35.3 0 64 28.7 64 64v64c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V216m256 0c0-66.3 53.7-120 120-120h8c17.7 0 32 14.3 32 32s-14.3 32-32 32h-8c-30.9 0-56 25.1-56 56v8h64c35.3 0 64 28.7 64 64v64c0 35.3-28.7 64-64 64h-64c-35.3 0-64-28.7-64-64V216"/></svg>');}</style>
+
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../../stylesheets/extra.css">
+    
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css">
+    
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="black" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#identifying-ideal-deployment-locations-for-xnet-installations" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="https://docs.xnet.company/" title="XNET Docs" class="md-header__button md-logo" aria-label="XNET Docs" data-md-component="logo">
+      
+  <img src="/stylesheets/logo.webp" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            XNET Docs
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Identifying Ideal Deployment Locations
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="black" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 7H7a5 5 0 0 0-5 5 5 5 0 0 0 5 5h10a5 5 0 0 0 5-5 5 5 0 0 0-5-5m0 8a3 3 0 0 1-3-3 3 3 0 0 1 3-3 3 3 0 0 1 3 3 3 3 0 0 1-3 3"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="black" data-md-color-accent="indigo"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 6H7c-3.31 0-6 2.69-6 6s2.69 6 6 6h10c3.31 0 6-2.69 6-6s-2.69-6-6-6m0 10H7c-2.21 0-4-1.79-4-4s1.79-4 4-4h10c2.21 0 4 1.79 4 4s-1.79 4-4 4M7 9c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+  
+
+<nav class="md-nav md-nav--primary md-nav--integrated" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="https://docs.xnet.company/" title="XNET Docs" class="md-nav__button md-logo" aria-label="XNET Docs" data-md-component="logo">
+      
+  <img src="/stylesheets/logo.webp" alt="logo">
+
+    </a>
+    XNET Docs
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_1" id="__nav_1_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Overview
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_1">
+            <span class="md-nav__icon md-icon"></span>
+            Overview
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../overview/overview/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Vision
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../overview/charter/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Charter
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Build
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            Build
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../deployments/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Introduction
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_2" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_2_2" id="__nav_2_2_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    WiFi
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2_2">
+            <span class="md-nav__icon md-icon"></span>
+            WiFi
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_2_1" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_2_2_1" id="__nav_2_2_1_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Deployer 101
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_2_2_1_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2_2_1">
+            <span class="md-nav__icon md-icon"></span>
+            Deployer 101
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../introduction_to_xnet_wifi_hardware/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Introduction to XNET WiFi Hardware
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Identifying Ideal Deployment Locations
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Identifying Ideal Deployment Locations
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#understanding-high-traffic-areas" class="md-nav__link">
+    <span class="md-ellipsis">
+      Understanding High-Traffic Areas
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Understanding High-Traffic Areas">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#characteristics-of-high-footfall-locations" class="md-nav__link">
+    <span class="md-ellipsis">
+      Characteristics of High-Footfall Locations
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#the-importance-of-user-density-for-wifi-offloading" class="md-nav__link">
+    <span class="md-ellipsis">
+      The Importance of User Density for WiFi Offloading
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#list-of-ideal-and-poor-locations" class="md-nav__link">
+    <span class="md-ellipsis">
+      List of Ideal and Poor Locations
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="List of Ideal and Poor Locations">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ideal-locations-for-xnet-installations" class="md-nav__link">
+    <span class="md-ellipsis">
+      Ideal Locations for XNET Installations
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#poor-locations-for-xnet-installations" class="md-nav__link">
+    <span class="md-ellipsis">
+      Poor Locations for XNET Installations
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#how-to-find-high-traffic-locations-in-small-towns" class="md-nav__link">
+    <span class="md-ellipsis">
+      How to Find High-Traffic Locations in Small Towns
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="How to Find High-Traffic Locations in Small Towns">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#starting-small-focus-on-independently-owned-venues" class="md-nav__link">
+    <span class="md-ellipsis">
+      Starting Small: Focus on Independently Owned Venues
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#note-the-challenges-of-large-venues" class="md-nav__link">
+    <span class="md-ellipsis">
+      Note: The Challenges of Large Venues
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#how-to-guesstimate-foot-traffic-and-dwell-time" class="md-nav__link">
+    <span class="md-ellipsis">
+      How to Guesstimate Foot Traffic and Dwell Time?
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="How to Guesstimate Foot Traffic and Dwell Time?">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#use-publicly-available-data" class="md-nav__link">
+    <span class="md-ellipsis">
+      Use Publicly Available Data
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#online-tools-and-analytics" class="md-nav__link">
+    <span class="md-ellipsis">
+      Online Tools and Analytics
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#predictive-modeling" class="md-nav__link">
+    <span class="md-ellipsis">
+      Predictive Modeling
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tools-and-techniques-for-site-selection" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tools and Techniques for Site Selection
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Tools and Techniques for Site Selection">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#mapping-tools-and-demographic-data" class="md-nav__link">
+    <span class="md-ellipsis">
+      Mapping Tools and Demographic Data
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#understanding-the-local-competition" class="md-nav__link">
+    <span class="md-ellipsis">
+      Understanding the Local Competition
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#assessing-existing-wifi-infrastructure" class="md-nav__link">
+    <span class="md-ellipsis">
+      Assessing Existing WiFi Infrastructure
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#conclusion" class="md-nav__link">
+    <span class="md-ellipsis">
+      Conclusion
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#references" class="md-nav__link">
+    <span class="md-ellipsis">
+      References
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../securing_negotiating_deployment_locations/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Securing and Negotiating Deployment Locations
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../installing_xnet_wifi_devices/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Installing XNET WiFi Devices
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../maintaining_optimizing_xnet_network.md'" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Maintaining and Optimizing the XNET Network
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../successful_xnet_deployer_conclusion/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Conclusion - Becoming a Successful XNET Deployer
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../wifi_deployer_guidelines/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Guidelines
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../wifi_deployer_management_process/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Process
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../acceptable_use/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Acceptable Use
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../uhdp_program/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    UHDP
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Token
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Token
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../token/overview/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    The XNET Token
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../token/distribution/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Claiming Rewards
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_3" id="__nav_3_3_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Solana Migration
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_3">
+            <span class="md-nav__icon md-icon"></span>
+            Solana Migration
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../token/migration/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Part 1
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../token/migration_part_2/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Part 2
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Technical Docs
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            Technical Docs
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_4_1" id="__nav_4_1_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Tutorials
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_1">
+            <span class="md-nav__icon md-icon"></span>
+            Tutorials
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../tech/tutorials/wifi_reactivation/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    WiFi Reactivation Guide
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../tech/tutorials/cbrs_reactivation/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CBRS Reactivation Guide
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../tech/tutorials/offload/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Carrier WiFi Offload
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../tech/datasheet/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Datasheets
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../tech/archive/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Archive
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="https://xnet.company" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    <span class="xnet-home-link">XNET Inc</span>
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="https://xnet.foundation" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    <span class="xnet-home-link">XNET Foundation</span>
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+<h1 id="identifying-ideal-deployment-locations-for-xnet-installations">Identifying Ideal Deployment Locations for XNET Installations<a class="headerlink" href="#identifying-ideal-deployment-locations-for-xnet-installations" title="Permanent link">#</a></h1>
+<p>Choosing the right location for deploying <strong>XNET WiFi installations</strong> is critical to ensuring maximum utilization and effectiveness of your network. <strong>High-traffic areas</strong> and locations with substantial user density are prime candidates for WiFi offloading, which can significantly enhance connectivity and reduce the load on cellular networks. This article will guide you through the process of identifying and selecting optimal locations for your XNET installations.</p>
+<hr />
+<h2 id="understanding-high-traffic-areas">Understanding High-Traffic Areas<a class="headerlink" href="#understanding-high-traffic-areas" title="Permanent link">#</a></h2>
+<h3 id="characteristics-of-high-footfall-locations">Characteristics of High-Footfall Locations<a class="headerlink" href="#characteristics-of-high-footfall-locations" title="Permanent link">#</a></h3>
+<p>When selecting a deployment site, it is essential to consider locations with <strong>high foot traffic</strong>. <strong>Airports, shopping malls, parks, and transit hubs</strong> are excellent examples of such locations. These areas are frequented by a large number of people daily, creating an environment where many users simultaneously require internet access. </p>
+<p>In <strong>airports</strong>, for instance, passengers often have dwell times ranging from <strong>60 to 90 minutes</strong>, making it a hotspot for WiFi usage. Similarly, <strong>shopping malls</strong> and <strong>public parks</strong> attract large crowds, particularly during weekends and holidays, offering ideal conditions for XNET installations.</p>
+<h3 id="the-importance-of-user-density-for-wifi-offloading">The Importance of User Density for WiFi Offloading<a class="headerlink" href="#the-importance-of-user-density-for-wifi-offloading" title="Permanent link">#</a></h3>
+<p><strong>User density</strong> is a critical factor when considering WiFi offloading. High-density areas like <strong>conference centers, event venues, and university campuses</strong> typically experience a heavy load on mobile networks, making them prime candidates for WiFi offloading solutions. The higher the user density, the more effective the offloading, which translates into a better user experience and reduced strain on mobile networks.</p>
+<hr />
+<h2 id="list-of-ideal-and-poor-locations">List of Ideal and Poor Locations<a class="headerlink" href="#list-of-ideal-and-poor-locations" title="Permanent link">#</a></h2>
+<h3 id="ideal-locations-for-xnet-installations">Ideal Locations for XNET Installations<a class="headerlink" href="#ideal-locations-for-xnet-installations" title="Permanent link">#</a></h3>
+<p>The effectiveness of your XNET installation largely depends on its location. Here is a <strong>list of ideal locations</strong> for deploying XNET WiFi hardware, including benchmarks for foot traffic and dwell time:</p>
+<table>
+<thead>
+<tr>
+<th>Location Type</th>
+<th>Description</th>
+<th>Estimated Foot Traffic (per month)</th>
+<th>Average Dwell Time (per visit)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Airports</strong></td>
+<td>Constant influx of travelers needing quick access to data.</td>
+<td>300,000 - 1,000,000+</td>
+<td>60 - 120 minutes</td>
+</tr>
+<tr>
+<td><strong>Cafes and Coffee Shops</strong></td>
+<td>Popular with both local and visiting patrons who often stay for extended periods.</td>
+<td>3,000 - 10,000+</td>
+<td>20 - 45 minutes</td>
+</tr>
+<tr>
+<td><strong>Public Parks</strong></td>
+<td>Increasingly equipped with Wi-Fi for public use, especially in urban areas.</td>
+<td>20,000 - 100,000+</td>
+<td>30 - 60 minutes</td>
+</tr>
+<tr>
+<td><strong>Shopping Malls</strong></td>
+<td>Large numbers of visitors with high smartphone usage.</td>
+<td>100,000 - 500,000+</td>
+<td>60 - 120 minutes</td>
+</tr>
+<tr>
+<td><strong>Public Transit Stations</strong></td>
+<td>Subways, train stations, and bus terminals where people use downtime to browse the internet.</td>
+<td>200,000 - 600,000+</td>
+<td>10 - 30 minutes</td>
+</tr>
+<tr>
+<td><strong>University Campuses</strong></td>
+<td>Dense concentrations of tech-savvy students who frequently access online resources.</td>
+<td>50,000 - 200,000+</td>
+<td>60 - 90 minutes</td>
+</tr>
+<tr>
+<td><strong>Event Venues</strong></td>
+<td>Stadiums, concert halls, and conference centers with large crowds needing access to social media and online services.</td>
+<td>50,000 - 200,000+ (per event)</td>
+<td>120 - 240 minutes</td>
+</tr>
+<tr>
+<td><strong>Libraries and Museums</strong></td>
+<td>Spaces where visitors stay for long periods and often need access to informational resources.</td>
+<td>5,000 - 20,000+</td>
+<td>60 - 120 minutes</td>
+</tr>
+<tr>
+<td><strong>Tourist Attractions</strong></td>
+<td>High traffic landmarks where tourists often require internet access for navigation and information.</td>
+<td>50,000 - 300,000+</td>
+<td>60 - 120 minutes</td>
+</tr>
+<tr>
+<td><strong>Large Hotels and Resorts</strong></td>
+<td>Guests and conference attendees utilize network access for both personal and business purposes.</td>
+<td>10,000 - 50,000+</td>
+<td>180 - 360 minutes</td>
+</tr>
+</tbody>
+</table>
+<h3 id="poor-locations-for-xnet-installations">Poor Locations for XNET Installations<a class="headerlink" href="#poor-locations-for-xnet-installations" title="Permanent link">#</a></h3>
+<p>Conversely, some locations may not be ideal for XNET installations due to low traffic or user density:</p>
+<table>
+<thead>
+<tr>
+<th>Location Type</th>
+<th>Description</th>
+<th>Estimated Foot Traffic (per month)</th>
+<th>Average Dwell Time (per visit)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Single Family Residential Areas</strong></td>
+<td>Limited number of users, which doesn’t justify the infrastructure cost.</td>
+<td>&lt; 1,000</td>
+<td>15 - 30 minutes</td>
+</tr>
+<tr>
+<td><strong>Rural Locations</strong></td>
+<td>Sparse populations and low device density, leading to underutilization of network resources.</td>
+<td>&lt; 5,000</td>
+<td>15 - 30 minutes</td>
+</tr>
+<tr>
+<td><strong>Industrial Zones</strong></td>
+<td>Areas primarily for manufacturing or warehousing where there is minimal public access.</td>
+<td>&lt; 1,000</td>
+<td>10 - 20 minutes</td>
+</tr>
+<tr>
+<td><strong>Private Offices</strong></td>
+<td>Small businesses or corporate offices that do not receive significant external visitors.</td>
+<td>1,000 - 3,000</td>
+<td>30 - 60 minutes</td>
+</tr>
+<tr>
+<td><strong>Areas with Low Pedestrian Traffic</strong></td>
+<td>Places where people primarily travel by car, such as remote rest stops or drive-through services.</td>
+<td>&lt; 5,000</td>
+<td>10 - 15 minutes</td>
+</tr>
+<tr>
+<td><strong>Non-Metro Residential Buildings</strong></td>
+<td>Apartment complexes in suburban or rural areas with insufficient user density.</td>
+<td>&lt; 2,000</td>
+<td>30 - 45 minutes</td>
+</tr>
+<tr>
+<td><strong>Farm and Agricultural Areas</strong></td>
+<td>Very low demand for public Wi-Fi given the nature of the location and work.</td>
+<td>&lt; 1,000</td>
+<td>10 - 20 minutes</td>
+</tr>
+<tr>
+<td><strong>Marinas and Boat Docks</strong></td>
+<td>Seasonal activity and often lack the necessary infrastructure for stable Wi-Fi.</td>
+<td>&lt; 2,000</td>
+<td>60 - 90 minutes (seasonal)</td>
+</tr>
+<tr>
+<td><strong>Construction Sites</strong></td>
+<td>Temporary setups and fluctuating crew sizes do not support permanent installations.</td>
+<td>&lt; 500</td>
+<td>5 - 10 minutes</td>
+</tr>
+<tr>
+<td><strong>Forests and Conservation Parks</strong></td>
+<td>Protected areas where modern infrastructure is often restricted to preserve natural conditions.</td>
+<td>&lt; 1,000</td>
+<td>60 - 120 minutes</td>
+</tr>
+<tr>
+<td>______</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2 id="how-to-find-high-traffic-locations-in-small-towns">How to Find High-Traffic Locations in Small Towns<a class="headerlink" href="#how-to-find-high-traffic-locations-in-small-towns" title="Permanent link">#</a></h2>
+<h3 id="starting-small-focus-on-independently-owned-venues">Starting Small: Focus on Independently Owned Venues<a class="headerlink" href="#starting-small-focus-on-independently-owned-venues" title="Permanent link">#</a></h3>
+<p>When you're just getting started with XNET WiFi installations, it's often best to target <strong>high-traffic locations in small towns</strong> that are independently owned. These types of venues are typically more accessible, require fewer bureaucratic hurdles, and can offer a solid return on investment. However, these are just suggestions and not requirements—if you feel you have a good lead or hook on any location that has decent foot traffic and dwell time, go for it! It’s a numbers game; the more access points (APs) you install, the better you’ll do. Here’s how to find these kinds of locations:</p>
+<ol>
+<li><strong>Walk Around the Town:</strong></li>
+<li>
+<p>One of the simplest ways to identify potential locations is by exploring the town yourself. Look for bustling cafes, busy parks, and local shops that consistently draw a crowd. Pay attention to venues with a steady stream of customers, especially during peak hours.</p>
+</li>
+<li>
+<p><strong>Local Business Directories and Maps:</strong></p>
+</li>
+<li>
+<p>Use <strong>Google Maps</strong> or <strong>Yelp</strong> to find highly-rated businesses in small towns. These platforms often highlight popular local spots, complete with customer reviews and peak visiting times. Focus on venues like cafes, restaurants, and parks that show consistent customer engagement.</p>
+</li>
+<li>
+<p><strong>Community Events and Markets:</strong></p>
+</li>
+<li>
+<p>Small towns often host regular events such as farmers' markets, fairs, and community festivals. These events attract large crowds and can be an excellent opportunity for short-term or permanent WiFi installations. Check the town’s event calendar or local news outlets for information on these events.</p>
+</li>
+<li>
+<p><strong>Chamber of Commerce and Local Business Associations:</strong></p>
+</li>
+<li>
+<p>Reach out to the local <strong>Chamber of Commerce</strong> or business associations. They can provide valuable insights into which businesses are thriving and may benefit from enhanced WiFi services. Additionally, they can help you connect with business owners who may be open to partnership opportunities.</p>
+</li>
+<li>
+<p><strong>Networking with Local Entrepreneurs:</strong></p>
+</li>
+<li>
+<p>Attend local networking events, business mixers, and community meetings. Building relationships with local business owners can open doors to deployment opportunities. Independently owned venues often appreciate the personal touch, and a strong local network can lead to fruitful collaborations.</p>
+</li>
+<li>
+<p><strong>Use Location Analytics Tools:</strong></p>
+</li>
+<li>For a more data-driven approach, tools like <strong><a href="https://www.placer.ai/">Placer.ai</a></strong> and <strong><a href="https://www.safegraph.com/">SafeGraph</a></strong> offer insights into foot traffic patterns in small towns. These tools can help you identify hidden gems that might not be immediately obvious from casual observation.</li>
+</ol>
+<h3 id="note-the-challenges-of-large-venues">Note: The Challenges of Large Venues<a class="headerlink" href="#note-the-challenges-of-large-venues" title="Permanent link">#</a></h3>
+<p>While targeting small-town, independently owned venues is a great way to start, it’s important to be aware of the challenges that come with larger venues like <strong>stadiums, airports, and major event centers</strong>. These locations often require:</p>
+<ul>
+<li><strong>Business Licenses:</strong> Many large venues require vendors to have specific business licenses to operate within their premises.</li>
+<li><strong>Insurance Requirements:</strong> You’ll likely need comprehensive insurance coverage, including liability insurance, which can be costly and complex to arrange.</li>
+<li><strong>Experience and Expertise:</strong> Deploying WiFi in large, high-traffic venues demands a high level of technical expertise and experience. These projects can be logistically challenging, often involving intricate planning and coordination with multiple stakeholders.</li>
+</ul>
+<p>For these reasons, it’s advisable to gain experience and build a solid portfolio in smaller venues before attempting to crack into larger, more complex locations. But remember, every opportunity counts—if you have a promising lead, don’t hesitate to pursue it!</p>
+<hr />
+<h2 id="how-to-guesstimate-foot-traffic-and-dwell-time">How to Guesstimate Foot Traffic and Dwell Time?<a class="headerlink" href="#how-to-guesstimate-foot-traffic-and-dwell-time" title="Permanent link">#</a></h2>
+<p>Accurately estimating <strong>foot traffic</strong> and <strong>dwell time</strong> without visiting a location can be challenging, but several strategies can help you make educated guesses.</p>
+<h3 id="use-publicly-available-data">Use Publicly Available Data<a class="headerlink" href="#use-publicly-available-data" title="Permanent link">#</a></h3>
+<ul>
+<li><strong>City and Government Data</strong>: Many cities publish foot traffic and transportation data that can be leveraged to estimate potential WiFi usage.</li>
+<li><strong>Industry Reports</strong>: Retail and restaurant industry reports often include average foot traffic and dwell times for different types of businesses.</li>
+</ul>
+<h3 id="online-tools-and-analytics">Online Tools and Analytics<a class="headerlink" href="#online-tools-and-analytics" title="Permanent link">#</a></h3>
+<ul>
+<li><strong>Google Maps Popular Times</strong>: This feature on <a href="https://support.google.com/business/answer/6263531?hl=en">Google Maps</a> shows peak times for various businesses, helping you gauge foot traffic.</li>
+<li><strong>Placer.ai</strong>: A <a href="https://www.placer.ai/">location analytics platform</a> that provides detailed foot traffic and dwell time data for various venues.</li>
+<li><strong>Yelp</strong> and <strong>Foursquare</strong>: These platforms offer insights into foot traffic based on user check-ins and reviews.</li>
+</ul>
+<h3 id="predictive-modeling">Predictive Modeling<a class="headerlink" href="#predictive-modeling" title="Permanent link">#</a></h3>
+<ul>
+<li><strong>Historical Data</strong>: Use historical foot traffic data from similar locations to create predictive models for new sites.</li>
+<li><strong>Customer Volume Estimation Formula</strong>:
+<div class="highlight"><pre><span></span><code>Estimated Foot Traffic = Square Footage × Industry Average Foot Traffic per Square Foot
+
+Average Dwell Time = Sum of Time Spent by All Visitors ÷ Number of Visitors
+</code></pre></div></li>
+</ul>
+<hr />
+<h2 id="tools-and-techniques-for-site-selection">Tools and Techniques for Site Selection<a class="headerlink" href="#tools-and-techniques-for-site-selection" title="Permanent link">#</a></h2>
+<p>Identifying the best locations for your XNET deployment involves using various tools and techniques to analyze potential sites.</p>
+<h3 id="mapping-tools-and-demographic-data">Mapping Tools and Demographic Data<a class="headerlink" href="#mapping-tools-and-demographic-data" title="Permanent link">#</a></h3>
+<ul>
+<li><strong>Heat Maps and Foot Traffic Analysis</strong>: Utilize tools like <strong><a href="https://www.placer.ai/">Placer.ai</a></strong> and <strong><a href="https://www.safegraph.com/">SafeGraph</a></strong> to create heat maps of foot traffic, identifying areas with the highest potential.</li>
+<li><strong>Demographic Data</strong>: Analyze local population density, age groups, and income levels to determine areas with a high likelihood of WiFi usage.</li>
+</ul>
+<h3 id="understanding-the-local-competition">Understanding the Local Competition<a class="headerlink" href="#understanding-the-local-competition" title="Permanent link">#</a></h3>
+<ul>
+<li><strong>Competitor Analysis</strong>: Identify existing WiFi networks in the area and evaluate their performance and coverage. This can help you identify gaps in service that your XNET installation can fill.</li>
+<li><strong>Market Research</strong>: Conduct surveys or use <strong><a href="https://www.statista.com/">market research</a></strong> reports to understand the demand for WiFi services in your target area.</li>
+</ul>
+<h3 id="assessing-existing-wifi-infrastructure">Assessing Existing WiFi Infrastructure<a class="headerlink" href="#assessing-existing-wifi-infrastructure" title="Permanent link">#</a></h3>
+<ul>
+<li><strong>Site Surveys</strong>: Conduct virtual or physical site surveys to assess the existing WiFi infrastructure, signal strength, and potential interference sources.</li>
+<li><strong>Consultation with Property Owners</strong>: Engage with property owners or managers to understand their current network setup and potential needs for enhanced WiFi coverage.</li>
+</ul>
+<hr />
+<h2 id="conclusion">Conclusion<a class="headerlink" href="#conclusion" title="Permanent link">#</a></h2>
+<p>Identifying the right deployment locations for <strong>XNET WiFi installations</strong> is a crucial step in ensuring the success of your network. By focusing on high-traffic areas with dense user populations and utilizing the right tools and techniques to analyze potential sites, you can optimize your installations for maximum effectiveness. <strong>Accurately estimating foot traffic and dwell time</strong>, understanding local competition, and assessing existing infrastructure are all key components in selecting the ideal locations for XNET hardware.</p>
+<hr />
+<h2 id="references">References<a class="headerlink" href="#references" title="Permanent link">#</a></h2>
+<ul>
+<li><a href="https://www.placer.ai/">Placer.ai - Location Analytics Platform</a></li>
+<li><a href="https://www.safegraph.com/">SafeGraph - Data on Physical Places</a></li>
+<li><a href="https://support.google.com/business/answer/6263531?hl=en">Google Maps Popular Times</a></li>
+<li><a href="https://www.fcc.gov/telecommunications">Federal Communications Commission (FCC) Telecommunications Standards</a></li>
+<li><a href="https://nrf.com/resources/consumer-research-and-data/">Retail Industry Foot Traffic Analysis</a></li>
+<li><a href="https://www.statista.com/">Statista - Market Research Platform</a></li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Footer" >
+        
+          
+          <a href="../introduction_to_xnet_wifi_hardware/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Introduction to XNET WiFi Hardware">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              <div class="md-ellipsis">
+                Introduction to XNET WiFi Hardware
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="../securing_negotiating_deployment_locations/" class="md-footer__link md-footer__link--next" aria-label="Next: Securing and Negotiating Deployment Locations">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              <div class="md-ellipsis">
+                Securing and Negotiating Deployment Locations
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Copyright © 2024 XNET Inc.
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+        <div class="md-social">
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://discord.gg/xnet" target="_blank" rel="noopener" title="discord.gg" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><!--! Font Awesome Free 6.7.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M524.531 69.836a1.5 1.5 0 0 0-.764-.7A485 485 0 0 0 404.081 32.03a1.82 1.82 0 0 0-1.923.91 338 338 0 0 0-14.9 30.6 447.9 447.9 0 0 0-134.426 0 310 310 0 0 0-15.135-30.6 1.89 1.89 0 0 0-1.924-.91 483.7 483.7 0 0 0-119.688 37.107 1.7 1.7 0 0 0-.788.676C39.068 183.651 18.186 294.69 28.43 404.354a2.02 2.02 0 0 0 .765 1.375 487.7 487.7 0 0 0 146.825 74.189 1.9 1.9 0 0 0 2.063-.676A348 348 0 0 0 208.12 430.4a1.86 1.86 0 0 0-1.019-2.588 321 321 0 0 1-45.868-21.853 1.885 1.885 0 0 1-.185-3.126 251 251 0 0 0 9.109-7.137 1.82 1.82 0 0 1 1.9-.256c96.229 43.917 200.41 43.917 295.5 0a1.81 1.81 0 0 1 1.924.233 235 235 0 0 0 9.132 7.16 1.884 1.884 0 0 1-.162 3.126 301.4 301.4 0 0 1-45.89 21.83 1.875 1.875 0 0 0-1 2.611 391 391 0 0 0 30.014 48.815 1.86 1.86 0 0 0 2.063.7A486 486 0 0 0 610.7 405.729a1.88 1.88 0 0 0 .765-1.352c12.264-126.783-20.532-236.912-86.934-334.541M222.491 337.58c-28.972 0-52.844-26.587-52.844-59.239s23.409-59.241 52.844-59.241c29.665 0 53.306 26.82 52.843 59.239 0 32.654-23.41 59.241-52.843 59.241m195.38 0c-28.971 0-52.843-26.587-52.843-59.239s23.409-59.241 52.843-59.241c29.667 0 53.307 26.82 52.844 59.239 0 32.654-23.177 59.241-52.844 59.241"/></svg>
+    </a>
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://twitter.com/XNET_mobile" target="_blank" rel="noopener" title="twitter.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.7.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253"/></svg>
+    </a>
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://www.youtube.com/channel/UCyIptNxGEgzXpckV5EL38qQ" target="_blank" rel="noopener" title="www.youtube.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 6.7.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305m-317.51 213.508V175.185l142.739 81.205z"/></svg>
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "../../..", "features": ["navigation.instant", "navigation.tracking", "navigation.sections", "navigation.indexes", "toc.follow", "toc.integrate", "navigation.top", "search.highlight", "header.autohide", "content.code.copy", "navigation.footer"], "search": "../../../assets/javascripts/workers/search.6ce7567c.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../../../assets/javascripts/bundle.83f73b43.min.js"></script>
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+      
+    
+  </body>
+</html>
