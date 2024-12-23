@@ -16,7 +16,7 @@ CBRS, through its use of dedicated wireless spectrum assignments, higher transmi
     XNET CBRS nodes must coordinate with a managed Spectrum Access System in order to operate. CBRS nodes must register with XNET to provide information like location, height and orientation. 
 
 <p style="text-align: center;">
-  <a href="/overview/park.png" data-fancybox="gallery">
+  <a href="/img/overview/park.png" data-fancybox="gallery">
     <img src="/img/overview/park.png" alt="Park" style="width: 500px;" />
   </a>
   <br />
@@ -32,7 +32,7 @@ XNET uses Wi-Fi Passpoint, also known as Hotspot 2.0, to ensure that mobile devi
     XNET Carrier Offload refers to the use of Wi-Fi networks to handle data traffic that would otherwise burden cellular networks. This technology is crucial for carriers in densely populated areas where mobile data traffic often exceeds network capacity.
 
 <p style="text-align: center;">
-  <a href="/overview/cafe.png" data-fancybox="gallery">
+  <a href="/img/overview/cafe.png" data-fancybox="gallery">
     <img src="/img/overview/cafe.png" alt="Park" style="width: 500px;" />
   </a>
   <br />
@@ -81,7 +81,7 @@ There are currently two types of priority rewards hexes, Silver and Gold. Radios
     Geographic restrictions only apply to CBRS radio deployments which require tight clustering to provide the greatest value for LTE/5G offload partners. 
 
 <p style="text-align: center;">
-  <a href="/overview/hexes.png" data-fancybox="gallery">
+  <a href="/img/overview/hexes.png" data-fancybox="gallery">
     <img src="/img/overview/hexes.png" alt="NYC" style="width: 300px;" />
   </a>
   <br />

@@ -61,7 +61,7 @@ If you do not follow these bridge instructions, you’re on your own. We can not
 3. Now click "*Connect Wallet*," choose Metamask, and confirm. (You may have to disable Phantom wallet extension to connect Metamask to the this part of the bridge then re-enable it when connecting Solana wallet part of the bridge, This happen when Phantom wallet try to take priority over metamask as to which wallet to connect first).
 
 
-    <a href="/migration/page_3_img_2.png" data-fancybox="gallery">
+    <a href="/img/migration/page_3_img_2.png" data-fancybox="gallery">
       <img src="/img/migration/page_3_img_2.png" alt="Relevant Image" width="500px">
     </a>
 
@@ -73,14 +73,14 @@ If you do not follow these bridge instructions, you’re on your own. We can not
 
     For Ethereum use `$(EW)XNET` contract address: `0x5393cEeD9a265Bda7952780E5b9413150e666a24`
 
-    <a href="/migration/page_3_img_3.jpeg" data-fancybox="gallery">
+    <a href="/img/migration/page_3_img_3.jpeg" data-fancybox="gallery">
     <img src="/img/migration/page_3_img_3.jpeg" alt="Relevant Image" width="500px">
     </a>
 
 2. The token may appear as “XNET” or “Unknown” Choose the amount (or max) that you want to bridge and click "Next."
 
 
-    <a href="/migration/page_3_img_4.png" data-fancybox="gallery">
+    <a href="/img/migration/page_3_img_4.png" data-fancybox="gallery">
       <img src="/img/migration/page_3_img_4.png" alt="Relevant Image" width="500px">
     </a>
 
@@ -90,23 +90,23 @@ If you do not follow these bridge instructions, you’re on your own. We can not
 
 1. Click "Connect" and choose Phantom from the dropdown list.
 
-    <a href="/migration/page_4_img_2.jpeg" data-fancybox="gallery">
+    <a href="/img/migration/page_4_img_2.jpeg" data-fancybox="gallery">
     <img src="/img/migration/page_4_img_2.jpeg" alt="Relevant Image" width="500px">
     </a>
 
 
-    <a href="/migration/page_4_img_3.jpeg" data-fancybox="gallery">
+    <a href="/img/migration/page_4_img_3.jpeg" data-fancybox="gallery">
     <img src="/img/migration/page_4_img_3.jpeg" alt="Relevant Image" width="500px">
     </a>
 
 2. You will then likely need to “create associated token account”, this will prompt you through a series of confirmations from the phantom wallet.
 
 
-    <a href="/migration/page_4_img_4.jpeg" data-fancybox="gallery">
+    <a href="/img/migration/page_4_img_4.jpeg" data-fancybox="gallery">
     <img src="/img/migration/page_4_img_4.jpeg" alt="Relevant Image" width="500px">
     </a>
 
-    <a href="/migration/page_5_img_2.png" data-fancybox="gallery">
+    <a href="/img/migration/page_5_img_2.png" data-fancybox="gallery">
     <img src="/img/migration/page_5_img_2.png" alt="Relevant Image" width="500px">
     </a>
 
@@ -115,7 +115,7 @@ If you do not follow these bridge instructions, you’re on your own. We can not
 4. Next confirm the token amount you want to move by selecting “Approve”, A Metamask popup will generate a popup for you to approve the amount to be transferred via you wallet and the token bridge contract. Confirm and approve the transaction, then hit 'Next' in the popup window.
 
 
-    <a href="/migration/page_5_img_4.jpeg" data-fancybox="gallery">
+    <a href="/img/migration/page_5_img_4.jpeg" data-fancybox="gallery">
       <img src="/img/migration/page_5_img_4.jpeg" alt="Relevant Image" width="500px">
     </a>
 
@@ -124,7 +124,7 @@ If you do not follow these bridge instructions, you’re on your own. We can not
 
 1. Click "Transfer" and confirm the transactions after verifying the amounts.
 
-    <a href="/migration/page_6_img_2.png" data-fancybox="gallery">
+    <a href="/img/migration/page_6_img_2.png" data-fancybox="gallery">
     <img src="/img/migration/page_6_img_2.png" alt="Relevant Image" width="500px">
     </a>
 
@@ -133,15 +133,15 @@ If you do not follow these bridge instructions, you’re on your own. We can not
 !!! note
     This process can take up to 30 minutes during times of high congestion, but typically only takes 2-3 minutes.
 
-  <a href="/migration/page_7_img_2.png" data-fancybox="gallery">
+  <a href="/img/migration/page_7_img_2.png" data-fancybox="gallery">
     <img src="/img/migration/page_7_img_2.png" alt="Relevant Image" width="500px">
   </a>
 
-  <a href="/migration/page_7_img_3.jpeg" data-fancybox="gallery">
+  <a href="/img/migration/page_7_img_3.jpeg" data-fancybox="gallery">
     <img src="/img/migration/page_7_img_3.jpeg" alt="Relevant Image" width="500px">
   </a>
 
-  <a href="/migration/page_7_img_4.png" data-fancybox="gallery">
+  <a href="/img/migration/page_7_img_4.png" data-fancybox="gallery">
     <img src="/img/migration/page_7_img_4.png" alt="Relevant Image" width="500px">
   </a>
 
@@ -150,12 +150,12 @@ If you do not follow these bridge instructions, you’re on your own. We can not
 
 1. Click the "Redeem" option to finalize the transfer. You will see 4-5 confirmations from the Solana wallet to complete the transfer.
 
-    <a href="/migration/page_7_img_5.png" data-fancybox="gallery">
+    <a href="/img/migration/page_7_img_5.png" data-fancybox="gallery">
       <img src="/img/migration/page_7_img_5.png" alt="Relevant Image" width="500px">
     </a>
 
 
-    <a href="/migration/page_8_img_2.png" data-fancybox="gallery">
+    <a href="/img/migration/page_8_img_2.png" data-fancybox="gallery">
       <img src="/img/migration/page_8_img_2.png" alt="Relevant Image" width="500px">
     </a>
 
@@ -165,7 +165,7 @@ If you do not follow these bridge instructions, you’re on your own. We can not
 1. Congratulations, you have successfully bridged  `$(P)XNET` from Polygon to Solana `$(W)XNET` using Wormhole Bridge! You should see this XNET token in your wallet now.
 
 
-    <a href="/migration/page_8_img_3.jpeg" data-fancybox="gallery">
+    <a href="/img/migration/page_8_img_3.jpeg" data-fancybox="gallery">
       <img src="/img/migration/page_8_img_3.jpeg" alt="Relevant Image" width="500px">
     </a>
 

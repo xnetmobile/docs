@@ -3,7 +3,7 @@
 An introduction guide to Hotspot 2.0  
 **May 6, 2024**
 
-  <a href="/offload/page_2_img_2.png" data-fancybox="gallery">
+  <a href="/img/offload/page_2_img_2.png" data-fancybox="gallery">
     <img src="/img/offload/page_2_img_2.png" alt="Relevant Image" width="500px">
   </a>
 
@@ -22,7 +22,7 @@ Hotspot 2.0, also known as Wi-Fi Certified Passpoint or Passpoint 2.0, is an ind
 Carrier Offload, often referred to in the context of mobile networks, is a technique used by cellular carriers to alleviate network congestion by offloading data traffic to Wi-Fi networks. This not only helps manage the data load on cellular networks but also provides users with faster and more reliable internet access.
 
 
-  <a href="/offload/page_3_img_2.png" data-fancybox="gallery">
+  <a href="/img/offload/page_3_img_2.png" data-fancybox="gallery">
     <img src="/img/offload/page_3_img_2.png" alt="Relevant Image" width="500px">
   </a>
 
