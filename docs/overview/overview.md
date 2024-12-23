@@ -57,7 +57,7 @@ We believe decentralized wireless networks not only make technological sense, bu
 There has never been more freely available spectrum than now, and there has never been a more mature industry toolkit of offload and secure interconnect technologies. XNET is building a backbone of technology offerings which span different bands like 2.4, 3.5, and 5.0 GHz and communication protocols like LTE, 5G, Wi-Fi 6, and Wi-Fi 7.
 
 
-![Spectrum Chart](/overview/spectrum.png)
+![Spectrum Chart](../img/overview/spectrum.png)
 
 At XNET, we refer to our wireless network approach as a **Heterogeneous Network**, which combines different protocols, different bands, and different hardware with one goal in mind: give builders the best opportunities to meet society's relentless desire for more wireless bandwidth. These hybrid network tools are meant to deployed in layers, with Wi-Fi radios working alongside LTE/5G, as one seamless concert of wireless goods.
 
