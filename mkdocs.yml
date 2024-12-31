@@ -57,6 +57,10 @@ extra:
       link: https://twitter.com/XNET_mobile
     - icon: fontawesome/brands/youtube
       link: https://www.youtube.com/channel/UCyIptNxGEgzXpckV5EL38qQ
+    - icon: fontawesome/brands/instagram
+      link: https://www.instagram.com/xnet_mobile
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/company/xnetmobile
   nav:
     - "Website": https://xnet.company
     - "Shop": https://shop.xnet.company
