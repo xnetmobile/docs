@@ -70,6 +70,7 @@ copyright: "Copyright © 2024 XNET Inc."
 
 plugins:
   - redoc-tag
+  - swagger-ui-tag
   - search:
       lang: en
 
@@ -115,6 +116,7 @@ nav:
   - Technical Docs:
     - XNET API: 
       - Overview: 'tech/api/overview.md'
+      - Swagger: 'tech/api/swagger.md'
       - API Documentation: 'tech/api/documentation.md'
       - Definitions: 'tech/api/definitions.md'
     - Tutorials:
