@@ -69,6 +69,7 @@ extra:
 copyright: "Copyright © 2024 XNET Inc."
 
 plugins:
+  - redoc-tag
   - search:
       lang: en
 
@@ -112,6 +113,10 @@ nav:
       - Part 1: 'token/migration.md'
       - Part 2: 'token/migration_part_2.md'
   - Technical Docs:
+    - XNET API: 
+      - Overview: 'tech/api/overview.md'
+      - API Documentation: 'tech/api/documentation.md'
+      - Definitions: 'tech/api/definitions.md'
     - Tutorials:
       - WiFi Reactivation Guide: 'tech/tutorials/wifi_reactivation.md'
       - CBRS Reactivation Guide: 'tech/tutorials/cbrs_reactivation.md'

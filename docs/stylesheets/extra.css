@@ -51,3 +51,8 @@
     text-decoration: underline; /* Add underline on hover */
     color: #0056b3;             /* Change color on hover */
 }
+
+/* full size window */
+.md-grid {
+    max-width: 100%; /* or 100%, if you want to stretch to full-width */
+}
