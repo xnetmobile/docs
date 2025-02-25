@@ -125,7 +125,7 @@
 
 !!! Important
     The organization roles can be find in
-    <a href="/img/api/orgrole_matrix.png" target="_blank" data-fancybox="gallery">matrix</a>
+    <a href="/img/api/orgrole_matrix.pdf" target="_blank" data-fancybox="gallery">matrix</a>
 
 ---
 
