@@ -113,7 +113,7 @@ nav:
       - Part 1: 'token/migration.md'
       - Part 2: 'token/migration_part_2.md'
   - Technical Docs:
-    - Xnet API: 
+    - XNET API: 
       - Overview: 'tech/api/overview.md'
       - API Documentation: 'tech/api/documentation.md'
       - Definitions: 'tech/api/definitions.md'
