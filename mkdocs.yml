@@ -61,6 +61,8 @@ extra:
       link: https://www.instagram.com/xnet_mobile
     - icon: fontawesome/brands/linkedin
       link: https://www.linkedin.com/company/xnetmobile
+    - icon: fontawesome/brands/github
+      link: https://github.com/xnetmobile
   nav:
     - "Website": https://xnet.company
     - "Shop": https://shop.xnet.company
