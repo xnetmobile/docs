@@ -17,9 +17,11 @@ The **XNET API** is a unified public interface designed to empower XNET particip
 
 The **XNET API** is not just about data retrieval—it’s about providing a dynamic, scalable platform that evolves with the needs of its users, ensuring efficient resource management today and delivering innovative tools for tomorrow.
 
-### Current Version (v1.0)
+### Current Version (v0.1)
 v0.1 is unstable and subject to breaking changes. Please wait for v1.0 before building with this API.
-- **Note:** This version is subject to change until fully released.
+
+!!! Warning
+      This version is subject to change until it is fully released as v1.0.
 
 ### Version (v1.0)
 - In the final phases of development.
@@ -46,11 +48,11 @@ v0.1 is unstable and subject to breaking changes. Please wait for v1.0 before bu
 
 ---
 
-**Documentation for this API can be found on our website at xnet.company**
+**Documentation for this API can be found on our website at https://docs.xnet.company/docs/tech/api/documentation**
 
 ## Conclusion
 The XNET API is your gateway to accessing and managing a wide range of XNET resources. As the system evolves, you can expect more features and improvements. Stay tuned for future releases as we roll out enhanced functionalities and tools.
 
-For more detailed information on each endpoint, refer to the full OpenAPI documentation provided on our website at xnet.company.
+For more detailed information on each endpoint, refer to the full OpenAPI documentation provided on our website at https://docs.xnet.company/docs/tech/api/documentation along with the swagger.yml file.
 
 Happy coding!
