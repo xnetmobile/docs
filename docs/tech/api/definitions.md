@@ -3,60 +3,57 @@
 ## 1. **Status**
 
 ### Organization Status
-- **Active**: 
+- **active**: 
   - The organization’s org-owner status is "active".
   - At least one venue under this organization has been active within the last 90 days.
-- **Inactive**: 
+- **inactive**: 
   - The organization’s org-owner status is "inactive".
   - No venues have been active for more than 90 days.
-- **Suspended**: 
-  - The organization has been suspended due to fraudulent activity.
-  - A suspended organization is no longer a part of XNET.
+- **suspended**: 
+  - This organization has been suspended for administrative or compliance reasons. It remains in our records but it’s venues and devices are no longer active within the XNET network.
 
 ### Member Status
-- **ACTIVE**: 
+- **active**: 
   - The member has accepted the organization invite.
-- **INACTIVE**: 
+- **inactive**: 
   - The member's invitation has expired without a response.
-- **DECLINED**: 
+- **declined**: 
   - The member has declined the invitation.
 
 ### User Status
-- **ACTIVE**: 
+- **active**: 
   - The user's email is verified.
-- **INACTIVE**: 
+- **inactive**: 
   - The user's email is unverified.
-- **SUSPENDED**: 
-  - The user has been suspended due to fraudulent activity.
-  - A suspended user is no longer a part of XNET.
+- **suspended**: 
+  - This user has been suspended for administrative or compliance reasons. They remain in our records, but their account is no longer active within the XNET network.
 
 ### Venue Status
-- **ACTIVE**: 
+- **active**: 
   - Devices are registered under this venue.
   - The site is qualified by XNET.
-- **INACTIVE**: 
+- **inactive**: 
   - No devices are registered under this venue.
   - The venue is not qualified by XNET (Qualification may take up to 30 days).
-- **SUSPENDED**: 
-  - The venue has been suspended due to fraudulent activity.
-  - A suspended venue is no longer a part of XNET.
+- **suspended**: 
+  - This venue has been suspended for administrative or compliance reasons. It remains in our records, but its venue and devices are no longer active within the XNET network.
 
 ### Device Status
-- **ACTIVE**: 
+- **active**: 
   - The device is assigned to a venue.
-- **SUSPENDED**: 
-  - The access point has been suspended by XNET.
-- **INACTIVE**: 
+- **suspended**: 
+  - This access point has been suspended for administrative or compliance reasons. It remains in our records, but is no longer active within the XNET network.
+- **inactive**: 
   - The device is not assigned to any venue.
-- **RMA**: 
+- **rma**: 
   - The access point has been approved for Return Merchandise Authorization (RMA) by XNET.
 
 ### Venue Qualification Status
-- **QUALIFIED**: 
+- **qualified**: 
   - The venue meets all required standards and criteria.
-- **UNQUALIFIED**: 
+- **unqualified**: 
   - The venue does not meet the necessary standards or criteria.
-- **PENDING**: 
+- **pending**: 
   - The venue is currently under review and awaiting a qualification decision.
 
 ---
@@ -127,7 +124,8 @@
   - Can view organization resources without making any modifications.
 
 !!! Important
-      The organization roles can be find in [matrix.](https://drive.google.com/file/d/1kobJaHeACK8Fuvx1Y2tNMvoeWogl7L47/view?usp=drive_link)
+    The organization roles can be find in
+    <a href="/img/api/orgrole_matrix.png" target="_blank" data-fancybox="gallery">matrix</a>
 
 ---
 
