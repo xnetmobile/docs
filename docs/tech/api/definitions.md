@@ -1,73 +1,75 @@
 # XNET Data Fields Overview
 
-## 1. **Status**
+## 1. **status**
 
-### Organization Status
+### Organization status
 - **active**: 
-  - The organization’s org-owner status is "active".
-  - At least one venue under this organization has been active within the last 90 days.
+    - The organization’s org-owner status is "active".
+    - At least one venue under this organization has been active within the last 90 days.
 - **inactive**: 
-  - The organization’s org-owner status is "inactive".
-  - No venues have been active for more than 90 days.
+    - The organization’s org-owner status is "inactive".
+    - No venues have been active for more than 90 days.
 - **suspended**: 
-  - This organization has been suspended for administrative or compliance reasons. It remains in our records but it’s venues and devices are no longer active within the XNET network.
+    - This organization has been suspended for administrative or compliance reasons. It remains in our records but it’s venues and devices are no longer active within the XNET network.
 
-### Member Status
+### Member status
 - **active**: 
-  - The member has accepted the organization invite.
+    - The member has accepted the organization invite.
 - **inactive**: 
-  - The member's invitation has expired without a response.
+    - The member's invitation has expired without a response.
 - **declined**: 
-  - The member has declined the invitation.
+    - The member has declined the invitation.
 
-### User Status
+### User status
 - **active**: 
-  - The user's email is verified.
+    - The user's email is verified.
 - **inactive**: 
-  - The user's email is unverified.
+    - The user's email is unverified.
 - **suspended**: 
-  - This user has been suspended for administrative or compliance reasons. They remain in our records, but their account is no longer active within the XNET network.
+    - This user has been suspended for administrative or compliance reasons. They remain in our records, but their account is no longer active within the XNET network.
 
-### Venue Status
+### Venue status
 - **active**: 
-  - Devices are registered under this venue.
-  - The site is qualified by XNET.
+    - Devices are registered under this venue.
+    - The site is qualified by XNET.
 - **inactive**: 
-  - No devices are registered under this venue.
-  - The venue is not qualified by XNET (Qualification may take up to 30 days).
+    - No devices are registered under this venue.
+    - The venue is not qualified by XNET (Qualification may take up to 30 days).
 - **suspended**: 
-  - This venue has been suspended for administrative or compliance reasons. It remains in our records, but its venue and devices are no longer active within the XNET network.
+    - This venue has been suspended for administrative or compliance reasons. It remains in our records, but its venue and devices are no longer active within the XNET network.
 
-### Device Status
+### Device status
 - **active**: 
-  - The device is assigned to a venue.
-- **suspended**: 
-  - This access point has been suspended for administrative or compliance reasons. It remains in our records, but is no longer active within the XNET network.
+    - The device is assigned to a venue.
 - **inactive**: 
-  - The device is not assigned to any venue.
+    - The device is not assigned to any venue.
+- **suspended**: 
+    - This access point has been suspended for administrative or compliance reasons.  It remains in our records, but is no longer active within the XNET network.
 - **rma**: 
-  - The access point has been approved for Return Merchandise Authorization (RMA) by XNET.
+    - The access point has been approved for Return Merchandise Authorization (RMA) by XNET.
 
-### Venue Qualification Status
+### Venue Qualification status
 - **qualified**: 
-  - The venue meets all required standards and criteria.
+    - The venue meets all required standards and criteria.
 - **unqualified**: 
-  - The venue does not meet the necessary standards or criteria.
+    - The venue does not meet the necessary standards or criteria.
 - **pending**: 
-  - The venue is currently under review and awaiting a qualification decision.
+    - The venue is currently under review and awaiting a qualification decision.
 
 ---
 
-## 2. **Type**
+## 2. **type**
 
 ### Organization
-- **Community**: 
-  - A community builder deploying XNET access points individually (default type for all users).
-- **ISP/MSP**: 
-  - Companies providing internet access to businesses/consumers or working with a Managed Service Provider (MSP).
-  - ISP/MSP partners must reach out to XNET for approval.
-- **MNO/MVNO**: 
-  - A Mobile Network Operator/Virtual Mobile Network Operator customer that offloads cellular data through XNET.
+- **community**: 
+    - A community builder deploying XNET access points individually (default type for all users).
+- **isp/msp**: 
+    - Companies providing internet access to businesses/consumers or working with a Managed Service Provider (MSP).
+    - ISP/MSP partners must reach out to XNET for approval.
+- **mno/mvno**: 
+    - A Mobile Network Operator/Virtual Mobile Network Operator customer that offloads cellular data through XNET.
+
+## 3. **venuedesc**
 
 ### Venue
 - **Alcohol and Drug Rehabilitation Center**
@@ -111,17 +113,17 @@
 
 ---
 
-## 3. **Role**
+## 4. **orgrole**
 
 ### Member
 - **org-owner**: 
-  - Possesses all organization administrative capabilities; only this role can remain unchanged by others.
+    - Possesses all organization administrative capabilities; only this role can remain unchanged by others.
 - **org-admin**: 
-  - Responsible for organization wallet management, member management, device management, and venue management.
+    - Responsible for organization wallet management, member management, device management, and venue management.
 - **org-manager**: 
-  - Handles member management, device management, and venue management.
+    - Handles member management, device management, and venue management.
 - **org-viewer**: 
-  - Can view organization resources without making any modifications.
+    - Can view organization resources without making any modifications.
 
 !!! Important
     The organization roles can be find in
@@ -129,10 +131,9 @@
 
 ---
 
-## 4. **ISP Information**
+## 5. **isp**
 
-### ISP Name 
-Valid ISP options include:
+### isp.name 
 
 - **Alaska Communications**
 - **Allo Communications**
@@ -186,25 +187,25 @@ Valid ISP options include:
 - **Ziply Fiber**
 - **OTHER**
 
-### ISP Class
+### isp.class
 - **business**: 
-  - Intended for commercial or enterprise use.
+    - Intended for commercial or enterprise use.
 - **consumer**: 
-  - Intended for residential or general consumer use.
+    - Intended for residential or general consumer use.
 
-### ISP Connection Type
+### isp.connection
 - **Fiber**: 
-  - Fiber Optic connection.
+    - Fiber Optic connection.
 - **Cable**: 
-  - Cable broadband.
+    - Cable broadband.
 - **DSL**: 
-  - Digital Subscriber Line (telephone line).
+    - Digital Subscriber Line (telephone line).
 - **Satellite**: 
-  - Satellite broadband for remote areas.
+    - Satellite broadband for remote areas.
 - **Dial-Up**: 
-  - Low-speed, traditional dial-up connection.
+    - Low-speed, traditional dial-up connection.
 
-### ISP Bandwidth
+### isp.bandwidth
 - **0-99Mbps**
 - **100-199Mbps**
 - **200-299Mbps**
@@ -213,28 +214,28 @@ Valid ISP options include:
 - **1-1.99Gbps**
 - **2Gbps+**
 
-### ISP Security Measures
+### isp.ispsecurity
 - **DefaultRouterSecurity**: 
-  - Default security settings on the router.
+    - Default security settings on the router.
 - **Firewall (L3) / Next Gen Firewall**: 
-  - Traditional or advanced firewall security.
+    - Traditional or advanced firewall security.
 - **IDS / IPS**: 
-  - Intrusion Detection/Prevention Systems.
+    - Intrusion Detection/Prevention Systems.
 - **VPN Gateway**: 
-  - Secure gateway for VPN connections.
+    - Secure gateway for VPN connections.
 - **Network Segmentation (L2)**: 
-  - Data link layer security.
+    - Data link layer security.
 - **Network Segmentation (L3) (VLANS)**: 
-  - VLAN network segmentation.
+    - VLAN network segmentation.
 - **DNS Sinkhole / Redirection**: 
-  - Blocks malicious DNS traffic.
+    - Blocks malicious DNS traffic.
 - **Physical Security (Cages/Locks)**: 
-  - Physical security measures for network hardware.
+    - Physical security measures for network hardware.
 
 ---
 
-## 5. **Tags**
+## 6. **tags**
 
-- **Tags**: 
-  - Labels used to categorize or identify resources such as venues or devices.
-  - Can be any string value chosen by the user.
+- **tags**: 
+    - Labels used to categorize or identify resources such as venues or devices.
+    - Can be any string value chosen by the user.
