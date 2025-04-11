@@ -15,7 +15,7 @@ The **XNET API** is a unified public interface designed to empower XNET particip
 **Key Highlights:**
 
 - **Resource Management:**  
-  The primary focus of the current phase (1.0) is on managing critical XNET assets—making it easier for deployers and organizations to maintain, monitor, and update devices, venues, and related components.
+  The primary focus of the current phase 1 is on managing critical XNET assets—making it easier for deployers and organizations to maintain, monitor, and update devices, venues, and related components.
 
 - **Future-Ready:**  
   While phase 1 concentrates on resource management, future iterations of the API promise enhanced functionality—including a revamped explorer tool in phase 2, live usage and accounting statistics in phase 3, and continuous upgrades in subsequent phases.
@@ -44,7 +44,6 @@ If you are interested in joining the Beta please reach out to an XNET team membe
 ## Getting Startedß
 
 - **Base URL:**  
-  Base URL will be active once v1.0 is released.
   `https://api.xnetmobile.com`
 
 - **Authentication:**  
