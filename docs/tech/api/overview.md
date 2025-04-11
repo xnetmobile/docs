@@ -15,10 +15,10 @@ The **XNET API** is a unified public interface designed to empower XNET particip
 **Key Highlights:**
 
 - **Resource Management:**  
-  The primary focus of the current version (v1.0) is on managing critical XNET assets—making it easier for deployers and organizations to maintain, monitor, and update devices, venues, and related components.
+  The primary focus of the current phase (1.0) is on managing critical XNET assets—making it easier for deployers and organizations to maintain, monitor, and update devices, venues, and related components.
 
 - **Future-Ready:**  
-  While v1.0 concentrates on resource management, future iterations of the API promise enhanced functionality—including a revamped explorer tool in v2.0, live usage and accounting statistics in v3.0, and continuous upgrades in subsequent versions.
+  While phase 1 concentrates on resource management, future iterations of the API promise enhanced functionality—including a revamped explorer tool in phase 2, live usage and accounting statistics in phase 3, and continuous upgrades in subsequent phases.
 
 The **XNET API** is not just about data retrieval—it’s about providing a dynamic, scalable platform that evolves with the needs of its users, ensuring efficient resource management today and delivering innovative tools for tomorrow.
 
@@ -28,20 +28,20 @@ v0.2.0 is unstable Beta and subject to breaking changes.
 If you are interested in joining the Beta please reach out to an XNET team member.
 
 !!! Warning
-      This version is subject to change until it is fully released as v1.0.
+      This version is subject to change until it is fully released as v1.0.0
 
-### Version (v1.0)
-- In the final phases of development.
+### Phase 1
+- Is in Beta now!.
 - Primarily focused on resource retrieval and management.
 
 ### Future Roadmap
-- **v2.0:** Revamped explorer tool.
-- **v3.0:** Live usage and accounting statistics.
-- **v4.0 & Beyond:** Continuous upgrades and improvements.
+- **Phase 2:** Revamped explorer tool.
+- **Phase 3:** Live usage and accounting statistics.
+- **Phase 4 & Beyond:** Continuous upgrades and improvements.
 
 ---
 
-## Getting Started
+## Getting Startedß
 
 - **Base URL:**  
   Base URL will be active once v1.0 is released.
