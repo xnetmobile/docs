@@ -5,10 +5,8 @@
 ### Organization status
 - **active**: 
     - The organization’s org-owner status is "active".
-    - At least one venue under this organization has been active within the last 90 days.
 - **inactive**: 
     - The organization’s org-owner status is "inactive".
-    - No venues have been active for more than 90 days.
 - **suspended**: 
     - This organization has been suspended for administrative or compliance reasons. It remains in our records but it’s venues and devices are no longer active within the XNET network.
 

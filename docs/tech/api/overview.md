@@ -1,5 +1,7 @@
 # XNET API
 
+🚀 **XNET API BETA IS LIVE!** 🚀
+
 Welcome to the **XNET API**—the public interface for managing and retrieving information about XNET resources. This is the beginning of a massive XNET core API system designed to evolve over time.
 
 ---
@@ -20,8 +22,10 @@ The **XNET API** is a unified public interface designed to empower XNET particip
 
 The **XNET API** is not just about data retrieval—it’s about providing a dynamic, scalable platform that evolves with the needs of its users, ensuring efficient resource management today and delivering innovative tools for tomorrow.
 
-### Current Version (v0.1)
-v0.1 is unstable and subject to breaking changes. Please wait for v1.0 before building with this API.
+### Current Version Beta (v0.2.0)
+This is an early beta version and subject to breaking changes. 
+v0.2.0 is unstable Beta and subject to breaking changes.
+If you are interested in joining the Beta please reach out to an XNET team member.
 
 !!! Warning
       This version is subject to change until it is fully released as v1.0.
@@ -41,7 +45,7 @@ v0.1 is unstable and subject to breaking changes. Please wait for v1.0 before bu
 
 - **Base URL:**  
   Base URL will be active once v1.0 is released.
-  `https://xnet.company/api`
+  `https://api.xnetmobile.com`
 
 - **Authentication:**  
   All endpoints (except login) require a valid bearer token. Tokens are obtained via the `/auth/login` endpoint.
