@@ -56,7 +56,25 @@
 
 ---
 
-## 2. **type**
+## 2. **orgrole**
+
+### Member
+- **org-owner**: 
+    - Possesses all organization administrative capabilities; only this role can remain unchanged by others.
+- **org-admin**: 
+    - Responsible for organization wallet management, member management, device management, and venue management.
+- **org-manager**: 
+    - Handles device management, and venue management.
+- **org-viewer**: 
+    - Can view organization resources without making any modifications.
+
+!!! Important
+    Specifics on orgrole endpoint access can be found in this
+    <a href="/img/api/orgrole_matrix.pdf" target="_blank" data-fancybox="gallery">matrix</a>
+
+---
+
+## 3. **type**
 
 ### Organization
 - **community**: 
@@ -67,7 +85,17 @@
 - **mno/mvno**: 
     - A Mobile Network Operator/Virtual Mobile Network Operator customer that offloads cellular data through XNET.
 
-## 3. **venuedesc**
+---
+
+## 4. **tags**
+### Venue and Device
+- **tags**: 
+    - Labels used to categorize or identify resources such as venues or devices.
+    - Can be any string value chosen by the user.
+
+---
+
+## 5. **venuedesc**
 
 ### Venue
 - Alcohol and Drug Rehabilitation Center
@@ -111,25 +139,7 @@
 
 ---
 
-## 4. **orgrole**
-
-### Member
-- **org-owner**: 
-    - Possesses all organization administrative capabilities; only this role can remain unchanged by others.
-- **org-admin**: 
-    - Responsible for organization wallet management, member management, device management, and venue management.
-- **org-manager**: 
-    - Handles member management, device management, and venue management.
-- **org-viewer**: 
-    - Can view organization resources without making any modifications.
-
-!!! Important
-    Specifics on orgrole endpoint access can be found in this
-    <a href="/img/api/orgrole_matrix.pdf" target="_blank" data-fancybox="gallery">matrix</a>
-
----
-
-## 5. **isp**
+## 6. **isp**
 
 ### isp.name 
 
@@ -229,11 +239,3 @@
     - Blocks malicious DNS traffic.
 - **Physical Security (Cages/Locks)**: 
     - Physical security measures for network hardware.
-
----
-
-## 6. **tags**
-
-- **tags**: 
-    - Labels used to categorize or identify resources such as venues or devices.
-    - Can be any string value chosen by the user.
