@@ -70,44 +70,44 @@
 ## 3. **venuedesc**
 
 ### Venue
-- **Alcohol and Drug Rehabilitation Center**
-- **Amusement Park**
-- **Attorney Office**
-- **Automotive Service Station**
-- **Bank**
-- **Bar**
-- **Boarding House**
-- **Bus Stop**
-- **City Park**
-- **Coffee Shop**
-- **Convention Center**
-- **Doctor or Dentist Office**
-- **Emergency Coordination Center**
-- **Factory**
-- **Gas Station**
-- **Grocery Market**
-- **Group Home**
-- **Hospital**
-- **Hotel or Motel**
-- **Kiosk**
-- **Library**
-- **Long-term Care Facility**
-- **Museum**
-- **Passenger Terminal (E.g., Airport, Bus, Ferry, Train Station)**
-- **Place of Worship**
-- **Police Station**
-- **Post Office**
-- **Prison or Jail**
-- **Professional Office**
-- **Rest Area**
-- **Restaurant**
-- **Retail Store**
-- **School, Primary**
-- **Shopping Mall**
-- **Stadium**
-- **Theater**
-- **University or College**
-- **Zoo Or Aquarium**
+- Alcohol and Drug Rehabilitation Center
+- Amusement Park
+- Attorney Office
+- Automotive Service Station
+- Bank
+- Bar
+- Boarding House
+- Bus Stop
+- City Park
+- Coffee Shop
+- Convention Center
+- Doctor or Dentist Office
+- Emergency Coordination Center
+- Factory
+- Gas Station
+- Grocery Market
+- Group Home
+- Hospital
+- Hotel or Motel
+- Kiosk
+- Library
+- Long-term Care Facility
+- Museum
+- Passenger Terminal (E.g., Airport, Bus, Ferry, Train Station)
+- Place of Worship
+- Police Station
+- Post Office
+- Prison or Jail
+- Professional Office
+- Rest Area
+- Restaurant
+- Retail Store
+- School, Primary
+- Shopping Mall
+- Stadium
+- Theater
+- University or College
+- Zoo Or Aquarium
 
 ---
 
@@ -124,7 +124,7 @@
     - Can view organization resources without making any modifications.
 
 !!! Important
-    The organization roles can be find in
+    Specifics on orgrole endpoint access can be found in this
     <a href="/img/api/orgrole_matrix.pdf" target="_blank" data-fancybox="gallery">matrix</a>
 
 ---
@@ -133,57 +133,57 @@
 
 ### isp.name 
 
-- **Alaska Communications**
-- **Allo Communications**
-- **AT&T**
-- **Astound Broadband (Wave, RCN)**
-- **Blue Ridge Communications**
-- **Breezeline (formerly Atlantic Broadband)**
-- **Brigham Net**
-- **Broadband VI**
-- **Buckeye Broadband**
-- **Cable One**
-- **Chat Mobility**
-- **CenturyLink**
-- **Cincinnati Bell (altafiber)**
-- **Clearwave Communications**
-- **Community Fiber Solutions**
-- **Consolidated Communications**
-- **Cox**
-- **DigitalPath**
-- **EarthLink**
-- **EPB Fiber Optics**
-- **Fibersphere Communications**
-- **Frontier Communications**
-- **Google Fiber**
-- **Grande Communications**
-- **Hargray Communications**
-- **Hawaiian Telcom**
-- **Hotwire Communications**
-- **HughesNet**
-- **Kinetic by Windstream**
-- **Lumos Networks**
-- **Mediacom**
-- **Mediastream**
-- **MetroNet**
-- **Midco**
-- **Municipal Fiber Networks**
-- **New Hampshire FastRoads**
-- **NorthState Communications**
-- **Optimum (Altice USA)**
-- **RCN**
-- **Rise Broadband**
-- **RiverStreet Networks**
-- **Sonic**
-- **Spectrum (Charter Communications)**
-- **T-Mobile Home Internet**
-- **TDS Telecom**
-- **Verizon Fios**
-- **Viasat (Exede)**
-- **Windstream**
-- **Xfinity**
-- **Ziply Fiber**
-- **OTHER**
+- Alaska Communications
+- Allo Communications
+- AT&T
+- Astound Broadband (Wave, RCN)
+- Blue Ridge Communications
+- Breezeline (formerly Atlantic Broadband)
+- Brigham Net
+- Broadband VI
+- Buckeye Broadband
+- Cable One
+- Chat Mobility
+- CenturyLink
+- Cincinnati Bell (altafiber)
+- Clearwave Communications
+- Community Fiber Solutions
+- Consolidated Communications
+- Cox
+- DigitalPath
+- EarthLink
+- EPB Fiber Optics
+- Fibersphere Communications
+- Frontier Communications
+- Google Fiber
+- Grande Communications
+- Hargray Communications
+- Hawaiian Telcom
+- Hotwire Communications
+- HughesNet
+- Kinetic by Windstream
+- Lumos Networks
+- Mediacom
+- Mediastream
+- MetroNet
+- Midco
+- Municipal Fiber Networks
+- New Hampshire FastRoads
+- NorthState Communications
+- Optimum (Altice USA)
+- RCN
+- Rise Broadband
+- RiverStreet Networks
+- Sonic
+- Spectrum (Charter Communications)
+- T-Mobile Home Internet
+- TDS Telecom
+- Verizon Fios
+- Viasat (Exede)
+- Windstream
+- Xfinity
+- Ziply Fiber
+- OTHER
 
 ### isp.class
 - **business**: 
@@ -204,13 +204,13 @@
     - Low-speed, traditional dial-up connection.
 
 ### isp.bandwidth
-- **0-99Mbps**
-- **100-199Mbps**
-- **200-299Mbps**
-- **300-499Mbps**
-- **500-999Mbps**
-- **1-1.99Gbps**
-- **2Gbps+**
+- 0-99Mbps
+- 100-199Mbps
+- 200-299Mbps
+- 300-499Mbps
+- 500-999Mbps
+- 1-1.99Gbps
+- 2Gbps+
 
 ### isp.ispsecurity
 - **DefaultRouterSecurity**: 
