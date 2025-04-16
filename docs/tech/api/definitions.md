@@ -109,7 +109,8 @@
 - City Park
 - Coffee Shop
 - Convention Center
-- Doctor or Dentist Office
+- Doctor
+- Dentist
 - Emergency Coordination Center
 - Factory
 - Gas Station
