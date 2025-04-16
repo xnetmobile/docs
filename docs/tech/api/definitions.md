@@ -98,45 +98,48 @@
 ## 5. **venuedesc**
 
 ### Venue
-- Alcohol and Drug Rehabilitation Center
-- Amusement Park
-- Attorney Office
-- Automotive Service Station
-- Bank
-- Bar
-- Boarding House
-- Bus Stop
-- City Park
-- Coffee Shop
-- Convention Center
-- Doctor
-- Dentist
-- Emergency Coordination Center
-- Factory
-- Gas Station
-- Grocery Market
-- Group Home
-- Hospital
-- Hotel or Motel
-- Kiosk
-- Library
-- Long-term Care Facility
-- Museum
-- Passenger Terminal (E.g., Airport, Bus, Ferry, Train Station)
-- Place of Worship
-- Police Station
-- Post Office
-- Prison or Jail
-- Professional Office
-- Rest Area
-- Restaurant
-- Retail Store
-- School, Primary
-- Shopping Mall
-- Stadium
-- Theater
-- University or College
-- Zoo Or Aquarium
+- amusement park
+- aquarium
+- attorney office
+- automotive service station
+- bank
+- bar
+- boarding house
+- bus stop
+- coffee shop
+- college
+- convention center
+- dentist
+- doctor
+- emergency coordination center
+- factory
+- gas station
+- grocery market
+- group home
+- hospital
+- hotel
+- kiosk
+- library
+- long‑term care facility
+- motel
+- museum
+- park
+- passenger terminal
+- place of worship
+- police station
+- post office
+- prison or jail
+- professional office
+- rehabilitation center
+- rest area
+- restaurant
+- retail store
+- school
+- shopping mall
+- stadium
+- theater
+- university
+- zoo or aquarium
 
 ---
 
