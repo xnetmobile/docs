@@ -24,14 +24,14 @@ The **XNET API** is not just about data retrieval—it’s about providing a dyn
 
 ### Current Version Beta (v0.2.0)
 This is an early beta version and subject to breaking changes. 
-v0.2.0 is unstable Beta and subject to breaking changes.
+v0.2.0 is unstable Beta and subject to breaking changes. Beta is Read only.
 If you are interested in joining the Beta please reach out to an XNET team member.
 
 !!! Warning
       This version is subject to change until it is fully released as v1.0.0
 
 ### Phase 1
-- Is in Beta now!.
+- Is in read only Beta now!.
 - Primarily focused on resource retrieval and management.
 
 ### Future Roadmap
