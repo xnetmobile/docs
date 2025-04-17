@@ -41,7 +41,7 @@ If you are interested in joining the Beta please reach out to an XNET team membe
 
 ---
 
-## Getting Startedß
+## Getting Started
 
 - **Base URL:**  
   `https://api.xnetmobile.com`
